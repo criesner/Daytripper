@@ -42,18 +42,6 @@ REVEAL CSS
  
  .reveal .controls div.navigate-right{  
  	left:74px;top:42px;border-left-width:22px;border-left-color:#eee;
-
-	/* 
-	background-image:url(img/DT-btn-next.png);
-	background-position: 0px 0px;
-	
-	display:block;
-	height:50px;
-	width:30px;
-	
-	text-decoration:none;	
-	outline:none;
-	*/
 	}
  .reveal .controls div.navigate-right.fragmented{opacity:.3}
  

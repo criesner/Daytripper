@@ -4,7 +4,7 @@ PASSAGES- SONORA CSS
 
 
 body {
-	background-image:url(img/bg-tan-paper.png);
+	background-image:url(/img/bg-tan-paper.png);
 	background-color:#faf3e3;
 }
 
@@ -42,7 +42,7 @@ VERTICAL SCROLL
 /* FIX NEEDED: how to get #side-column-textbox to slide onto 3rd page (and off the last two pages) instead of top:160% hack! */
 
 #side-column-textbox{
-	background-image:url(img/bg-tan-paper.png) !important;
+	background-image:url(/img/bg-tan-paper.png) !important;
 	background-color:#faf3e3;
 	opacity:.9;
 	z-index:999;
@@ -93,7 +93,7 @@ VERTICAL SCROLL
 
 
 .spacer-bottom, .spacer-top{
-	background-image:url(img/bg-tan-paper.png);
+	background-image:url(/img/bg-tan-paper.png);
 	opacity: .9;
 	
 	position:fixed;
@@ -229,7 +229,7 @@ hr.text-closing-rule:after {
 		
 		z-index: 9999 !important;
 		
-		background-image:url(img/bg-tan-paper.png);
+		background-image:url(/img/bg-tan-paper.png);
 		background-color: #faf3e3;
 		
 		padding: 6px!important;

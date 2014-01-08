@@ -14,9 +14,9 @@
 
 	<link rel="apple-touch-icon" href="dt-ios-icon.png"/>
     
-    <link type="text/css" href="daytripper-global-no01.css" rel="stylesheet" />
-    <link type="text/css" href="daytripper-homepage.css" rel="stylesheet" />
-    <link type="text/css" href="css/reveal.css" rel="stylesheet" />  <!-- REVEAL framework styling -->
+    <link href="issue-001/assets/css/daytripper-global-no01.css" rel="stylesheet" >
+    <link href="css/daytripper-homepage.css" rel="stylesheet" />
+    <!-- <link href="css/reveal.css" rel="stylesheet" />  --> <!-- REVEAL framework styling -->
 
 
     <!--[if lt IE 9]>
@@ -26,211 +26,166 @@
 
 <body>
     <!-- NAV -->
-	<nav class="loading-screen">  
-        <div class="articles">
-           
-            <a herf="#" id="stories_btn">INFO</a>
-            
+	<nav class="">  
+        <div class="articles">           
+            <a herf="#" id="stories_btn">INFO</a>            
             <ul>
-                <li>
-                	<a class="about-btn" href="#"> ABOUT </a>
-                </li>
-                
-					<li class="separator">&nbsp;|&nbsp;</li> 
-                    
-                <li>
-                    <a href="#" class="subscribe-btn"> SUBSCRIBE </a>
-                </li>
+                <li> <a class="about-btn" href="#"> ABOUT </a> </li>                
+				<li class="separator">&nbsp;|&nbsp;</li>                     
+                <li> <a href="#" class="subscribe-btn"> SUBSCRIBE </a> </li>
             </ul>
 		</div>
          
-        <div class="home">     
-            <li>
-                <a class="home" href="index.html">
-                    <li >DAYTRIPPER <class="story"> </li>
-                </a>
+        <ul class="home">     
+            <li> 
+                <a class="home" href="index.html"> DAYTRIPPER </a>
             </li>   
-         </div> <!-- /HOME -->
+         </ul> <!-- /HOME -->
          
     	<hr class="double-line" />
-        
-        <div class="about-overlay">
-            <div class="about">
-                <p>Daytripper is an interactive webzine that's all about the unique adventures that come from cheap and spontaneous forms of travel.</p> 
-                <br />
-                <p>If you're intrested in learning more about this project, have intrest in contributing stories or if you just want to say hi, write us a 
-                    <a href="mailto:chris.riesner@gmail.com">NOTE</a>
-                </p>
-                <p>
-                    <a class="hide-btn spin-hover" href="#"></a>
-                </p>
-            </div> <!-- /ABOUT -->
-        </div> <!-- /ABOUT OVERLAY -->
-        
-        <div class="subscribe-overlay">
-            <div class="about">
-                <p>
-        			Follow the <a href="https://www.facebook.com/daytripperZine" target="_new">DAYTRIPPER FACEBOOK</a> to get updates on new issue releases.
-                </p>                
-                <br />
-                <p>
-        			<div class="fb-follow" data-href="http://www.facebook.com/daytripperZine" data-colorscheme="light" data-layout="box_count" data-show-faces="false"></div>
-                </p>
-                <p>
-                	<a class="hide-btn spin-hover" href="#"></a>
-                </p>
-   	 		</div> <!-- /ABOUT -->
-		</div>  <!-- /SUBSCRIBE OVERLAY -->  
     </nav> 
     <!-- /NAV -->
           
-    <!-- ARROWS --> 
-    	<!-- NEED TO FIX: should be able to do this without using div #rev/#next?  .navigate-left .enabled is the frameworks correct name, i added #prev to get working this would fix the swiping triggering JS vertical scroll feature-->
-    <div class="direction loading-screen">
-        <a href="#" id="prev-home" class="navigate-left enabled"></a>
-        <a href="#" id="next" class="navigate-right enabled"></a>
-    </div> <!-- /DIRECTION -->
-
-    <!-- MASTHEAD LOGO -->
-    <div id="masthead" class="loading-screen">
-		<img id="p0-img0" src="img/dt-homepage-stack-type.png" >
-    </div><!-- /MASTHEAD LOGO -->
+	<img id="masthead p0-img0" src="img/dt-homepage-stack-type.png" ><!-- /MASTHEAD LOGO -->
+    
+    <!-- About Overlay -->
+    <section class="about-overlay">
+        <div class="about">
+            <p>Daytripper is an interactive webzine that's all about the unique adventures that come from cheap and spontaneous forms of travel.</p> 
+            <br />
+            <p>If you're intrested in learning more about this project, have intrest in contributing stories or if you just want to say hi, write us a 
+                <a href="mailto:chris.riesner@gmail.com">NOTE</a>
+            </p>
+            <p>
+                <a class="hide-btn spin-hover" href="#"></a>
+            </p>
+        </div> <!-- /ABOUT -->
+    </section> <!-- /ABOUT OVERLAY -->
+    
+    <!-- Subscribe Overlay -->
+    <section class="subscribe-overlay">
+        <div class="about">
+            <p>
+    			Follow the <a href="https://www.facebook.com/daytripperZine" target="_new">DAYTRIPPER FACEBOOK</a> to get updates on new issue releases.
+            </p>                
+            <br />
+            <p>
+    			<div class="fb-follow" data-href="http://www.facebook.com/daytripperZine" data-colorscheme="light" data-layout="box_count" data-show-faces="false"></div>
+            </p>
+            <p>
+            	<a class="hide-btn spin-hover" href="#"></a>
+            </p>
+ 		</div> <!-- /ABOUT -->
+	</section>  <!-- /SUBSCRIBE OVERLAY -->  
         
-    <!-- SIDE COLUMN TEXTBOX // VERTICAL SLIDE --> 
-    	<!-- FIX NEEDED(SEMI FIXED): how to get this to work on touch device tap and swipe -->
-    <div id="side-column-textbox" style="display:none;">
-        <div class="slides-textbox"> 
+    <!-- ISSUE No1-->
+    <section class="issue-01" data-state="data-event-prev-home-remove data-event-next-home">
+				<a class="" href="/issue-001/trackings-davis-alicia-greenleaf">
+            		<img id="" src="img/dt-no01-homepage-daytripper-mountain-adventure.png" alt="DAYTRIPPER No01 MOUNTAIN ADVENTURER" />      
+                </a>         		
+        
+                <!--  SIDEBAR HOBOCODE  --> 
+                <div>
+                    <a class="sidebar-button-hobocode spin-hover" href="#"></a>
+                
+                    <div class="sidebar-content-hobocode">
+                        <img src="img/hobocode.png">
+                        <!--  <img src="img/hobocode-square.png">-->
+					</div>
+                </div> <!--  / HOBOCODE  --> 
+
                 <!-- HOME TOC -->
                 <div class="toc-home-box">
+                    <div class="toc-list">
 
-                        <div class="toc-list">
+    					 <a herf="#" class="toc-btn story toc" style="font-size:20px!important;">No&omicron;1</a>
 
-       						 <a herf="#" class="toc-btn story toc" style="font-size:20px!important;">No&omicron;1</a>
+                        <ul>
+                            <a class="current" href="/issue-001/trackings-davis-alicia-greenleaf">
+                            <li class="story issue" >ISSUE Noο1</li>
+                            </a>
+                        </ul>
 
-                            <ul>
-                                <a class="current" href="trackings-davis-alicia-greenleaf.html">
-                                <li class="story issue" >ISSUE Noο1</li>
-                                </a>
-                            </ul>
-
-                            <ul>
-                                <a href="trackings-davis-alicia-greenleaf.html">
-                                <li class="story toc story-responsive">TRACKINGS</li>
-                                <li class="story-name toc">ALICIA GREENLEAF</li>
-                                </a>
-                            </ul>
-                            
-                            <ul>
-                                <a href="passages-sonora-riesnerxlondon.html">
-                                <li class="story toc story-responsive">PASSAGES</li>
-                                <li class="story-name toc">RIESNER &times; LONDON</li>
-                                </a>
-                            </ul>
-                            
-                            <ul>
-                                <a href="wayfinding-pacifica-riesner.html">
-                                <li class="story toc story-responsive">WAYFINDING</li>
-                                <li class="story-name toc">PACIFICA RIDGE</li>
-                                </a>
-                            </ul>
-                            
-                            <ul>
-                                <a href="partings-steve-franks.html">
-                                <li class="story toc story-responsive">PARTINGS</li>
-                                <li class="story-name toc">STEVE FRANKS</li>
-                                </a>
-                            </ul>
-                            
-                       </div><!-- /TOC LIST -->
-                       
-                       <div class="toc-list">
-                       
-       						 <a herf="http://www.facebook.com/daytripperZine" class="toc-btn story toc" style="font-size:20px!important;">N&ordm;ο2 &raquo; COMING SOON</a>
-
-
-                            <ul>
-                                <a class="current" href="#">
-                                <li class="story issue"><del>ISSUE Noο2</del></li>
-                                </a>
-                            </ul>
-
-                            <ul>
-                                <a href="http://www.facebook.com/DaytripperZine">
-                                <li class="story-name toc">COMING SOON</li>
-                                <li class="story-name toc">SUBSCRIBE &raquo; FACEBOOK</li>
-                                </a>
-                            </ul>
-
-						</div><!-- /TOC LIST -->
-                    
+                        <ul>
+                            <a href="/issue-001/trackings-davis-alicia-greenleaf">
+                            <li class="story toc story-responsive">TRACKINGS</li>
+                            <li class="story-name toc">ALICIA GREENLEAF</li>
+                            </a>
+                        </ul>
+            
+                        <ul>
+                            <a href="/issue-001/passages-sonora-riesnerxlondon">
+                            <li class="story toc story-responsive">PASSAGES</li>
+                            <li class="story-name toc">RIESNER &times; LONDON</li>
+                            </a>
+                        </ul>
+            
+                        <ul>
+                            <a href="/issue-001/wayfinding-pacifica-riesner">
+                            <li class="story toc story-responsive">WAYFINDING</li>
+                            <li class="story-name toc">PACIFICA RIDGE</li>
+                            </a>
+                        </ul>
+            
+                        <ul>
+                            <a href="/issue-001/partings-steve-franks">
+                            <li class="story toc story-responsive">PARTINGS</li>
+                            <li class="story-name toc">STEVE FRANKS</li>
+                            </a>
+                        </ul>
+            
+                   </div><!-- /TOC LIST -->
                 </div> <!-- /TOC HOME BOX-->
+     </section> <!--/PAGE 0 --> 
 
-        </div><!--/SLIDES TEXTBOX-->
-    </div><!--/TEXTBOX--> 
-	
-
-    <div class="reveal">
-        <div class="slides">
+    <!-- ISSUE No2-->
+    <section class="issue-02" data-background-transition="page" data-state="data-event-next-home-remove data-event-prev-home data-event-cycle">
+			
+            <!-- <div class="coming-soon-overlay">
+            </div>  -->
+               
+            <a class="fade" href="http://www.facebook.com/DaytripperZine.html">
+            		<img id="" src="img/dt-no01-homepage-daytripper-beach-explorer.png" alt="DAYTRIPPER No02 MOUNTAIN ADVENTURER"/>      
+            </a>
             
-            <!-- PAGE 0 ISSUE No1-->
-            <section data-state="data-event-prev-home-remove data-event-next-home">
-						<a class="fade mast-img" href="trackings-davis-alicia-greenleaf.html">
-                    		<img id="p0-img1" src="img/dt-no01-homepage-daytripper-mountain-adventure.png" alt="DAYTRIPPER No01 MOUNTAIN ADVENTURER" />      
-                        </a>         		
-                
-                        <!--  SIDEBAR HOBOCODE  --> 
-                        <div class="sidebar-hobocode">
-                            <a class="sidebar-button-hobocode spin-hover" href="#"></a>
-                        
-                            <div class="sidebar-content-hobocode">
-                                <img src="img/hobocode.png">
-                                <!--  <img src="img/hobocode-square.png">-->
-							</div>
-                        </div> <!--  / HOBOCODE  --> 
-
-             </section> <!--/PAGE 0 --> 
+            <div class="toc-home-box">
+                <div class="toc-list">
+    
+						 <a herf="http://www.facebook.com/daytripperZine" class="toc-btn story toc" style="font-size:20px!important;">N&ordm;ο2 &raquo; COMING SOON</a>
 
 
+                     <ul>
+                         <a class="current" href="#">
+                         <li class="story issue"><del>ISSUE Noο2</del></li>
+                         </a>
+                     </ul>
 
-            <!-- PAGE 1 ISSUE No2-->
-            <section data-background-transition="page" data-state="data-event-next-home-remove data-event-prev-home data-event-cycle">
-					
-                    <div class="coming-soon-overlay">
-                    </div> 
-                       
-                    <a class="fade" href="http://www.facebook.com/DaytripperZine.html">
-                    		<img id="coming-soon-img" src="img/dt-no01-homepage-daytripper-beach-explorer.png" alt="DAYTRIPPER No02 MOUNTAIN ADVENTURER"/>      
-                    </a>      
-            </section> <!--/PAGE 0 ISSUE No1 --> 
+                     <ul>
+                         <a href="http://www.facebook.com/DaytripperZine">
+                         <li class="story-name toc">COMING SOON</li>
+                         <li class="story-name toc">SUBSCRIBE &raquo; FACEBOOK</li>
+                         </a>
+                     </ul>
 
+				</div><!-- /TOC LIST -->
+            </div>
+    </section> <!--/PAGE 0 ISSUE No1 --> 
 
+    <!-- ARROWS --> 
+    <div class="direction">
+        <a href="#IssueNo01" id="prev-home" class="navigate-left enabled"></a>
+        <a href="#IssueNo02" id="next" class="navigate-right enabled"></a>
+    </div> <!-- /DIRECTION -->
             
-                    <!-- REPLACE WITH THIS WHEN 3 ISSUES FOR ARROW SUPPORT -->
-                    <!--
-                    <section data-background-transition="page" data-state="data-event-next-home data-event-prev-home">
-                            <a class="fade" href="trackings-davis-alicia-greenleaf.html">
-                                    <img id="p0-img1" src="img/dt-no01-homepage-daytripper-beach-explorer.png" alt="DAYTRIPPER No02 MOUNTAIN ADVENTURER"/>      
-                                </a>      
-                    </section> 
-        
-                    <section data-background-transition="page" data-state="data-event-next-home-hide">
-                            <a class="fade" href="trackings-davis-alicia-greenleaf.html">
-                                    <img id="p0-img1" src="img/dt-no01-homepage-daytripper-beach-explorer.png" alt="DAYTRIPPER No02 MOUNTAIN ADVENTURER"/>      
-                                </a>      
-                    </section>  
-                    -->
-            
-            
-		</div><!-- /SLIDES -->    
-	</div><!-- /REVEAL -->
     <div id="fb-root"></div>
     
 	<!--REAVEAL.JS FRAMEWORK OPTIONS-->
-    <script src="lib/js/head.min.js"></script>
-    <script src="js/reveal.min.js"></script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script> <!--JAVASCRIPT-->
-    <script src="js/daytripper-global.js"></script>	<!--JS DAYTRIPPER GLOBAL-->
-    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script><!--JQUEREY UI-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    
+    <!-- // <script src="js/reveal.min.js"></script> -->
+    <!-- // <script src="js/daytripper-global.js"></script> -->    <!--JS DAYTRIPPER GLOBAL-->
     <script type="text/javascript" src="js/jquery.cycle.all.js"></script><!--TOC SLIDER CYCLE PLUGIN-->
     <script type="text/javascript" src="http://f.cl.ly/items/1V0H321S2j3r3y1D2m15/jquery.mousewheel.js"></script><!--MOUSEWHEEL JS-->
 

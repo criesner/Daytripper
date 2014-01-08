@@ -119,22 +119,7 @@ body {
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
   border-left-color: #999; 
-/*  
-  background-image:url(img/DT-btn-next.png);
-	background-position: 0px 0px;
-	
-	display:block;
-	height:50px;
-	width:30px;
-	
-	text-decoration:none;	
-	outline:none;
-	
-	position:absolute;
-	top:50%;
-	right:15px;
-	z-index:9000!important;*/
-  }
+}
 
 
 .reveal .controls div.navigate-left.enabled:hover {

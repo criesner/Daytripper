@@ -3,7 +3,7 @@ DAYTRIPPER HOMEPAGE
 **********************************************/
 
 body {
-	background-image:url(img/bg-tan-paper.png)!important;
+	background-image:url(/img/bg-tan-paper.png)!important;
 	background-color:#faf3e3;
 }
 
@@ -145,7 +145,7 @@ a.hide-btn {
 		height:30px;
 		width:30px;
 		
-		background-image:url(img/btn_hobocode.png);
+		background-image:url(/img/btn_hobocode.png);
 		background-position: 0px 30px;
 			
 		outline:none;
@@ -462,7 +462,7 @@ a:hover img{
 		height:30px;
 		width:30px;
 		
-		background-image:url(img/btn_hobocode.png);
+		background-image:url(/img/btn_hobocode.png);
 		background-position: 0px -30px;
 		
 		opacity:.7;
