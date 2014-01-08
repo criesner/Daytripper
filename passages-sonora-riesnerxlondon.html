@@ -1,0 +1,712 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>PASSAGES || SONORA</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+    	<!-- NEEDED FIX: when i put daytripper-global-n01.css in the css folder the arrows dissapear, maybe a problem with reveal.css overriding it?? -->
+    <link href="daytripper-global-no01.css" rel="stylesheet" type="text/css" />
+    		<!-- NEEDED FIX: when i put these specific css files in the css folder the backgrounds images don't work -->
+	<link href="passages-sonora.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="css/reveal.css">  <!-- REVEAL framework styling -->
+
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+    
+
+
+       
+</head>
+
+<body>
+
+	<!-- LOADER --> 
+    <div class="loader">    
+       
+        <div class="circle blink">
+        <div class="circle2">
+              
+            <div class="loading-icon blink" > 
+                 <img src="img/loader-ajaxload-4.gif" />
+            </div>
+    
+        </div>
+        </div>
+    </div> <!-- / LOADER --> 
+    
+    
+    <!-- NAV -->
+	<nav>  
+        <div class="articles">
+           
+            <a herf="#" id="stories_btn">STORIES</a>
+            
+            <ul>
+                <li>
+                    <a href="trackings-davis-alicia-greenleaf.html">
+                        <li class="story">TRACKINGS</li>
+                    </a>
+                </li>
+               		<li class="separator">|</li> 
+                <li>
+                    <a class="current" href="passages-sonora-riesnerxlondon.html">
+                        <li class="story">PASSAGES</li>
+                    </a>
+                </li>
+					<li class="separator">|</li> 
+                <li>
+                    <a href="wayfinding-pacifica-riesner.html">
+                        <li class="story">WAYFINDING</li>
+                    </a>
+                </li>
+                	<li class="separator">|</li> 
+                <li>
+                    <a href="partings-steve-franks.html">
+                        <li class="story end">PARTINGS</li>
+                    </a>
+                </li>
+            </ul>
+		</div>
+         
+        <div class="home">     
+            <li>
+                <a class="home" href="index.html">
+                    <li >DAYTRIPPER <class="story"> </li>
+                </a>
+            </li>   
+         </div> <!-- /HOME -->
+         
+    	<hr class="double-line" />
+        
+	</nav> <!-- /NAV -->
+    
+
+      
+    <!-- ARROWS --> 
+    	<!-- NEED TO FIX: should be able to do this without using div id prev/next? '.navigate-left .enabled' is the frameworks correct term with the css in 'reveal.css' but i cant get the arrows to show up or the JS to hook up to it! -->
+    <div class="direction">
+        	<a href="trackings-davis-alicia-greenleaf.html" id="prev-article"></a>
+        <a href="#" id="prev" class="navigate-left enabled"></a>
+        	<a href="wayfinding-pacifica-riesner.html" id="next-article"> </a>
+        <a href="#" id="next" class="navigate-right enabled"></a>
+  
+    </div> <!-- /DIRECTION -->
+        
+        
+        <!-- TEST STUFF
+                <a id="prev" href="#"></a>
+        
+                <a href="#" class="navigate-down enabled">down</a>
+                
+                <a id="prev" class="navigate-left" href="#"></a> 
+        
+                     <div class="direction">
+            
+                        <aside class=​"controls" style=​"display:​ block;​ ">​
+                            <div class=​"navigate-left">​</div>​
+                            <div class=​"navigate-right enabled" id="next">​</div>​
+                        </aside>​
+                
+                    </div> <!-- /DIRECTION -->
+       
+    
+    <!-- SIDE COLUMN TEXTBOX // VERTICAL SLIDE --> 
+    	<!-- FIX NEEDED: how to get textbox slide onto 3rd page instead of top:172% hack! -->
+        <!-- FIX NEEDED: how to get this to work on touch device tap and swipe -->
+    <div id="side-column-textbox">
+        <div class="slides-textbox"> 
+        	
+            <a href="#" class="navigate-left spacer-top">
+            	<div class="spacer-top">&uArr;</div> 
+            </a>
+            
+            <a href="#" class="navigate-right spacer-bottom">
+            <div class="spacer-bottom">&dArr;</div> 
+            </a>
+        
+       		<!--<div class="spacer-blank"></div>-->
+            <img class="textbox-title"src="img/dt-no01-passages-jack-london-to-build-a-fire-excerpt.png" width="100%" height="auto">
+
+                <p>
+                Day had broken cold and grey, exceedingly cold and grey, when the man turned aside from the main Yukon trail and climbed the high earth- bank, where a dim and little-travelled trail led eastward through the fat spruce timberland. It was a steep bank, and he paused for breath at the top, excusing the act to himself by looking at his watch. It was nine o'clock. There was no sun nor hint of sun, though there was not a cloud in the sky. It was a clear day, and yet there seemed an intangible pall over the face of things, a subtle gloom that made the day dark, and that was due to the absence of sun. This fact did not worry the man. He was used to the lack of sun. It had been days since he had seen the sun, and he knew that a few more days must pass before that cheerful orb, due south, would just peep above the sky- line and dip immediately from view.
+                </p>
+                
+                <p>
+                The man flung a look back along the way he had come. The Yukon lay a mile wide and hidden under three feet of ice. On top of this ice were as many feet of snow. It was all pure white, rolling in gentle undulations where the ice-jams of the freeze-up had formed. North and south, as far as his eye could see, it was unbroken white, save for a dark hair-line that curved and twisted from around the spruce- covered island to the south, and that curved and twisted away into the north, where it disappeared behind another spruce-covered island. This dark hair-line was the trail--the main trail--that led south five hundred miles to the Chilcoot Pass, Dyea, and salt water; and that led north seventy miles to Dawson, and still on to the north a thousand miles to Nulato, and finally to St. Michael on Bering Sea, a thousand miles and half a thousand more.
+                </p>
+                
+                <p>
+                But all this--the mysterious, far-reaching hairline trail, the absence of sun from the sky, the tremendous cold, and the strangeness and weirdness of it all--made no impression on the man. It was not because he was long used to it. He was a new-comer in the land, a chechaquo, and this was his first winter. The trouble with him was that he was without imagination. He was quick and alert in the things of life, but only in the things, and not in the significances. Fifty degrees below zero meant eighty odd degrees of frost. Such fact impressed him as being cold and uncomfortable, and that was all. It did not lead him to meditate upon his frailty as a creature of temperature, and upon man's frailty in general, able only to live within certain narrow limits of heat and cold; and from there on it did not lead him to the conjectural field of immortality and man's place in the universe. Fifty degrees below zero stood for a bite of frost that hurt and that must be guarded against by the use of mittens, ear-flaps, warm moccasins, and thick socks. Fifty degrees below zero was to him just precisely fifty degrees below zero. That there should be anything more to it than that was a thought that never entered his head.
+                </p>
+                
+                <p>
+                As he turned to go on, he spat speculatively. There was a sharp, explosive crackle that startled him. He spat again. And again, in the air, before it could fall to the snow, the spittle crackled. He knew that at fifty below spittle crackled on the snow, but this spittle had crackled in the air. Undoubtedly it was colder than fifty below--how much colder he did not know. But the temperature did not matter. He was bound for the old claim on the left fork of Henderson Creek, where the boys were already. They had come over across the divide from the Indian Creek country, while he had come the roundabout way to take a look at the possibilities of getting out logs in the spring from the islands in the Yukon. He would be in to camp by six o'clock; a bit after dark, it was true, but the boys would be there, a fire would be going, and a hot supper would be ready. As for lunch, he pressed his hand against the protruding bundle under his jacket. It was also under his shirt, wrapped up in a handkerchief and lying against the naked skin. It was the only way to keep the biscuits from freezing. He smiled agreeably to himself as he thought of those biscuits, each cut open and sopped in bacon grease, and each enclosing a generous slice of fried bacon.
+                </p>
+                
+                <p>
+                He plunged in among the big spruce trees. The trail was faint. A foot of snow had fallen since the last sled had passed over, and he was glad he was without a sled, travelling light. In fact, he carried nothing but the lunch wrapped in the handkerchief. He was surprised, however, at the cold. It certainly was cold, he concluded, as he rubbed his numbed nose and cheek-bones with his mittened hand. He was a warm-whiskered man, but the hair on his face did not protect the high cheek-bones and the eager nose that thrust itself aggressively into the frosty air.
+                </p>
+                
+                <p>
+                At the man's heels trotted a dog, a big native husky, the proper wolf-dog, grey-coated and without any visible or temperamental difference from its brother, the wild wolf. The animal was depressed by the tremendous cold. It knew that it was no time for travelling. Its instinct told it a truer tale than was told to the man by the man's judgment. In reality, it was not merely colder than fifty below zero; it was colder than sixty below, than seventy below. It was seventy-five below zero. Since the freezing-point is thirty-two above zero, it meant that one hundred and seven degrees of frost obtained. The dog did not know anything about thermometers. Possibly in its brain there was no sharp consciousness of a condition of very cold such as was in the man's brain. But the brute had its instinct. It experienced a vague but menacing apprehension that subdued it and made it slink along at the man's heels, and that made it question eagerly every unwonted movement of the man as if expecting him to go into camp or to seek shelter somewhere and build a fire. The dog had learned fire, and it wanted fire, or else to burrow under the snow and cuddle its warmth away from the air. 
+                </p>
+
+                </br>
+                </br>
+                <p>
+                <hr class="text-closing-rule">
+                </p>
+
+                            
+        </div><!--/SLIDES TEXTBOX-->
+    </div><!--/TEXTBOX--> 
+
+
+
+    <div class="reveal">
+        <div class="slides">
+            
+            
+            <!-- PAGE 0 OPENER-->
+            <section data-state="data-event-prev-article">                              
+                    <!--<img src="img/DT-trackings-cover-f.jpg" /> -->                		
+                    <a class="navigate-right enabled" href="#">
+                    	<img id="p0-img1" src="img/daytripper-passages-sonora-p0-chris-riesner1.png" />
+                	</a>
+  <div class="credits">
+                            <ul>
+                                <li class="story"><a class="navigate-right enabled" href="#">&nbsp;&ensp;PHOTOS <span class="double-line" style="letter-spacing:-2px;">||</span>&ensp;CHRIS RIESNER 2011 </a></li>
+                                <li class="story-name"><a class="navigate-right enabled" href="#">EXCERPT <span class="double-line">||</span>&ensp;JACK LONDON 1905</a> </li>
+                            <a href="#" id="next" class="navigate-right enabled show-arrow"></a>
+
+</ul>
+                        </div> <!-- /CREDITS -->
+
+             </section> <!--/PAGE 0 --> 
+
+
+
+            <!-- PAGE 1 -->
+            <section class="slide-box" data-state="data-event-prev-article-remove data-event-textbox-remove">
+                    <img class="slide-box" id="p1-img1" src="img/dt-no01-passages-sonora-p1-mountains.jpg" /> 
+    
+            </section> <!--/PAGE 1 -->
+           
+            
+      
+            <!-- PAGE 2 TEXT SCROLLS ONTO THIS PAGE-->
+            <section data-background="img/dt-no01-passages-chris-p2-trail-bw.jpg" data-background-transition="page" data-state="data-event-textbox">
+    
+            </section> <!-- /PAGE 2 -->
+            
+            
+                        
+            <!-- PAGE 3-->
+            <section>
+                    <img id="p3-img1"src="img/dt-no01-passages-chris-p3-sanctuary-bmx-tires-oakhurst.jpg" />
+
+                        <div class="pullquote">
+							<p id="p3-pullquote">The trouble with him was that he was without imagination</p>
+                        </div> <!-- /pullquote -->
+            </section> <!-- /PAGE 3 -->
+
+
+
+            <!-- PAGE 4 -->
+            <section data-background="img/dt-no01-passages-chris-p4-fish-school.jpg" data-background-transition="page">
+    
+            </section> <!-- /PAGE 4 -->
+
+
+
+            <!-- PAGE 5-->
+            <section>
+                    <img id="p5-img1"src="img/dt-no01-passages-chris-p5-sonora-bond-fire.jpg" />
+
+                        <div class="pullquote">
+							<p id="p5-pullquote">There was a sharp, explosive crackle that startled him</p>
+                        </div> <!-- /pullquote -->
+            </section> <!-- /PAGE 5 -->
+        
+
+
+            <!-- PAGE 6-->
+            <section>
+                    <img id="p6-img1"src="img/dt-no01-passages-chris-p6-sonora-luke-fire-portrait.jpg" />
+
+            </section> <!-- /PAGE 6 -->
+            
+
+
+            <!-- PAGE 7 -->
+            <section data-background="img/dt-no01-passages-chris-p7-sonora-wolf-pup-mateo.jpg" data-background-transition="page">
+    
+            </section> <!-- /PAGE 7 -->
+            
+            
+            
+            <!-- PAGE 8 -->
+            <section >
+                    <img id="p8-img1"src="img/dt-no01-passages-chris-p8-bond-fire-bw.jpg" />
+    
+            </section> <!-- /PAGE 8 -->
+            
+            
+            <!-- PAGE 9 -->
+            <section data-background="img/dt-no01-passages-chris-p9-sonora-wolf-mateo.jpg" data-state="data-event-next-article-remove data-event-textbox">
+
+            </section> <!-- /PAGE 9 -->
+        
+      
+                <!-- PAGE TOC -->
+                    <!-- NEEDED FIX: .story font-size resizes with page? -->
+                    <!-- NEEDED FIX: when hover on .story or .story-name hover make them hover as a pair, hover on .next-story not working -->
+              <section data-state="data-event-next-article data-event-textbox-remove">
+                    <div class="toc-end-box">
+                    
+                        <div class="next-story current">
+                            <a class="current" href="passages-riesnerxlondon.html">NEXT STORY <span class="arrow"> &raquo;</span></a>
+                        </div>
+                        
+                            <div class="toc-list toc-list-wayfinding">
+                                <ul>
+                                    <a href="trackings-davis-alicia-greenleaf.html">
+                                    <li class="story">TRACKINGS</li>
+                                    <li class="story-name">ALICIA GREENLEAF</li>
+                                    </a>
+                                </ul>
+                                
+                                <ul>
+                                    <a href="passages-sonora-riesnerxlondon.html">
+                                    <li class="story">PASSAGES</li>
+                                    <li class="story-name">RIESNER &times; LONDON</li>
+                                    </a>
+                                </ul>
+                                
+                                <ul>
+                                    <a class="current" href="wayfinding-pacifica-riesner.html">
+                                    <li class="story">WAYFINDING</li>
+                                    <li class="story-name">PACIFICA RIDGE</li>
+                                    </a>
+                                </ul>
+                                
+                                <ul>
+                                    <a href="partings-steve-franks.html">
+                                    <li class="story">PARTINGS</li>
+                                    <li class="story-name">STEVE FRANKS</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        
+                            <!--<div class="clear">CLEAR THIS </div>-->
+                            
+                    </div> <!-- /TOC END BOX-->
+
+				</section> <!-- /PAGE TOC -->
+    
+        
+        
+		</div><!-- /SLIDES -->    
+	</div><!-- /REVEAL -->
+        
+        
+        
+        
+	<!--REAVEAL.JS FRAMEWORK OPTIONS-->
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+				
+				mouseWheel: false,
+				transition: 'slide',
+				transitionSpeed: 'slow',
+				backgroundTransition: 'slide',
+				
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				
+				
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+			
+		</script><!--/REAVEAL.JS-->
+        
+        
+
+    
+    
+    
+        <!--SIDEBAR JS-->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+        <!--JS DAYTRIPPER GLOBAL-->
+    	<script src="js/daytripper-global.js"></script>
+        <!--HAMMER JS-->
+        <script type="text/javascript" src="js/hammer.js"></script>
+        
+        <!--NAV TOP RESPONSIVE BTN-->
+       <!-- <script type="text/javascript">
+                $('#stories_btn').click(function(){
+                    $('nav ul').slideToggle('slow', function(){
+                        $(this).css('display') == 'none' ? $(this).removeClass('showNav').addClass('hideNav').removeAttr('style') : $(this).removeClass('hideNav').addClass('showNav').removeAttr('style');
+                    });
+                })
+        
+        </script>--> <!--/NAV TOP RESPONSIVE BTN-->
+    
+		<script type="text/javascript">
+			/*
+			// SWIPE ANIMATE
+			$(function(){
+				var blue = document.getElementById("blue");
+				
+				Hammer(blue).on("swipeleft", function() {
+					  $(blue).animate({left: "-=100"}, 500);
+						$(red).animate({left: "-=100"}, 500);
+				});
+				
+				Hammer(document.getElementById("blue")).on("swiperight", function() {
+					  $(blue).animate({left: "+=100"}, 500)  
+				});
+			})
+		*/
+		
+		
+			/*JS*/ 
+			$(document).ready(function(){
+				
+					// SIDEBAR MAP
+					$('.sidebar-button-map').toggle(
+						function(){
+							$('.sidebar-content-map').animate({'height':'1000'},1000);	
+							},
+							
+							function(){
+								$('.sidebar-content-map').animate({'height':'0'},500);
+						});
+						
+					
+						$(".sidebar-button-map").click(function () {
+							$(this).toggleClass("sidebar-button-x-map");
+						
+					}); // MAP
+				
+				/* --------------------------- */
+				
+				
+				
+				/*SIDE COLUMN TEXT BOX*/
+				
+					// RIGHT ARROW 
+					$(".navigate-right.enabled").click(function(){
+						$('#side-column-textbox').animate({top: "-=75%"}, 1020);	
+					});	
+						
+					// LEFT ARROW 
+					$(".navigate-left").click(function(){
+						$('#side-column-textbox').animate({top: "+=75%"}, 1020);
+					});	
+						
+					
+						// KEYBOARD SIDE COLUMN TEXT: workaround, maybe i need to do this with gesture as well 
+						$(document).keydown(function(key) {
+							switch(parseInt(key.which,10)) {
+								case 39: // RIGHT KEY
+										$('#side-column-textbox').animate({top: "-=75%"}, 1020);
+										break;
+								
+								case 37: // LEFT KEY
+										$('#side-column-textbox').animate({top: "+=75%"}, 1020);
+										break;
+								default:
+										break;
+							}
+						}); // KEYBOARD
+				
+				/* --------------------------- */	
+
+		document.addEventListener('data-event-textbox', function(){
+			$('.slides-textbox').fadeIn('fast');
+			$('.spacer-top, .spacer-bottom').fadeIn('slow');
+		});
+		
+		document.addEventListener('data-event-textbox-remove', function(){
+			$('.spacer-top, .spacer-bottom').fadeOut();
+		});
+		
+			
+			
+			})// JS 
+			
+			
+			/* ---------------------------------- */
+        
+			</script> <!--/SIDEBAR JS-->
+
+
+
+
+
+
+
+	<!--script>
+		
+		document.addEventListener('customevent', function(){
+         alert('event has fired');
+       });
+		
+		</script>   --> 
+
+	<!--TEXTBOX VERTICAL SCROLL-->	
+        	<!--FIX NEEDED: clicking arrows not working on mobile see below .click function hack?-->	  
+            <!--FIX NEEDED: add mobile slide gesture to trigger this?-->	  
+		<script type="text/javascript">
+        
+
+		
+        /* SIDE COLUMN TEXT VERTICAL SLIDE */
+	/*				 
+		$(document).ready(function(){
+					
+                    // RIGHT ARROW 
+                    $(".navigate-right.enabled").click(function(){
+                        $('#side-column-textbox').animate({top: "-=75%"}, 1020);
+						
+                        });	
+                        
+                    // LEFT ARROW 
+                    $(".navigate-left").click(function(){
+                        $('#side-column-textbox').animate({top: "+=75%"}, 1020);
+                        });		
+            })
+			
+	*/
+		</script> <!--/TEXTBOX VERTICAL SCROLL-->	
+        
+        
+		
+        <script>
+	  /*
+	 		  $(document).ready(function(){
+                    // RIGHT ARROW 
+                    $(".navigate-right.enabled").click(function(){
+                        $('#side-column-textbox').animate({top: "-=84%"}, 1020);
+                        })	
+                        
+                    // LEFT ARROW 
+                    $(".navigate-left").click(function(){
+                        $('#side-column-textbox').animate({top: "+=84%"}, 1020);
+                        })		
+            })
+			
+			
+			
+			
+		/*trying to hide slide on first page*/
+		/*	
+			$(document).ready(function(){
+					$(".navigate-left").hide();
+					
+                    // RIGHT ARROW 
+                    $(".navigate-right.enabled").click(function(){
+                        $('#side-column-textbox').animate({top: "-=84%"}, 1020);
+						$(".navigate-left").show().fadeIn(800);
+						
+                        });	
+                        
+                    // LEFT ARROW 
+                    $(".navigate-left").click(function(){
+                        $('#side-column-textbox').animate({top: "+=84%"}, 1020);
+                        });		
+            })
+			
+			
+			
+		$(function() {
+  		  if ( document.location.href.indexOf('#/2') > -1 ) {
+        		$(".navigate-right.enabled").click(function(){
+                        $('#side-column-textbox').animate({top: "-=84%"}, 1020);
+                        })	
+   		  }
+		  
+		});
+
+					
+			*/
+			
+			
+	
+			
+		/* KEYBOARD SIDE COLUMN TEXT: workaround, maybe i need to do this with gesture as well */
+		   /*
+		   $(document).keydown(function(key) {
+				switch(parseInt(key.which,10)) {
+					case 39: // RIGHT KEY
+							$('#side-column-textbox').animate({top: "-=84%"}, 1020);
+							break;
+					
+					case 37: // LEFT KEY
+							$('#side-column-textbox').animate({top: "+=84%"}, 1020);
+							break;
+					default:
+							break;
+				}
+			});
+						
+			*/			
+						        
+					/* SIDE COLUMN TEXT VERTICAL SLIDE */
+						/*		
+						$(function(){
+						  $(".navigate-right.enabled").bind('touchend', function () {
+							$('#side-column-textbox').animate({top: "-=300px"}, 1020);
+						  });
+						})*/
+
+ 
+ 
+					/* SIDE COLUMN TEXT VERTICAL SLIDE touchstart click */
+					/*
+					$(document).on('touchstart click', '.navigate-right.enabled', function () {
+						$('#side-column-textbox').animate({top: "-=300px"}, 1020);
+					});
+					*/
+						
+				  /* SIDE COLUMN TEXT VERTICAL SLIDE */
+					/*
+					$(function(){
+					  $(".navigate-right.enabled").bind('touchend', function () {
+						$('#side-column-textbox').animate({top: "-=300px"}, 1020);
+					  });
+					})
+					*/
+			
+					/* TRYING TO REPLACE .CLICK WITH .ON TOUCH START FOR MOBILE BUT NO LUCK? */
+					
+					/*				
+				   $(document).ready(function(){
+							// RIGHT ARROW 
+							$(".navigate-right.enabled").on('touchstart click',function(){
+								$('#side-column-textbox').animate({top: "-=300px"}, 1020);
+								})	
+								
+							// LEFT ARROW 
+							$(".navigate-left").bind('touchstart click', function(){
+								$('#side-column-textbox').animate({top: "+=300px"}, 1020);
+								})		
+					})
+					
+					*/
+	
+
+					/*
+					$(document).on('touchstart click', function(){
+					  e.preventDefault();
+							// RIGHT ARROW 
+							$(".navigate-right.enabled").click(function(){
+								$('#side-column-textbox').animate({top: "-=300px"}, 1020);
+								})	
+								
+							// LEFT ARROW 
+							$(".navigate-left").click(function(){
+								$('#side-column-textbox').animate({top: "+=84%"}, 1020);
+								})		
+					});
+					*/
+					
+					/*
+					$(this).bind('touchstart click', function(){
+					  e.preventDefault();
+							// RIGHT ARROW 
+							$(".navigate-right.enabled").click(function(){
+								$('#side-column-textbox').animate({top: "-=300px"}, 1020);
+								})	
+								
+							// LEFT ARROW 
+							$(".navigate-left").click(function(){
+								$('#side-column-textbox').animate({top: "+=84%"}, 1020);
+								})		
+					});
+					*/
+					
+					/* 
+					$(document).ready(function(){
+						// RIGHT ARROW 
+						$(".navigate-right.enabled").on('swipeleft', function(){
+							$('#side-column-textbox').animate({top: "-=300px"}, 1020);
+							})	
+							
+						// LEFT ARROW 
+						$(".navigate-left").on('swiperight', function(){
+							$('#side-column-textbox').animate({top: "+=84%"}, 1020);
+							})		
+           			 })
+					*/
+					        
+				<!--iOS .click function hack (not working) -->
+				/*	$(function() {
+						// The trick
+						if (/ip(hone|od)|ipad/i.test(navigator.userAgent)) {
+						   $("body").css ("cursor", "pointer");
+						}
+						// The test
+						$("body").on("click", "#click", function() {
+							alert("This also works on iOS !");
+						});
+					});
+		</script> <!--/TEXTBOX VERTICAL SCROLL-->		
+		*/
+
+	
+        
+
+
+        <!--GOOGLE ANALYTICS -->
+        <script>
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			
+			  ga('create', 'UA-46333945-1', 'daytriper.us');
+			  ga('send', 'pageview');
+
+		</script>
+
+
+
+
+	</body>
+</html>

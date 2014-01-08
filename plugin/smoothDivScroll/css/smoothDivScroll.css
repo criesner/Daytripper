@@ -1,0 +1,168 @@
+﻿/*********************************************
+SMOOTH DIV SCROLL CSS
+**********************************************/
+
+
+
+/* my edits */
+
+		#makeMeScrollable
+		{
+			width:100%;
+			position: relative;
+		}
+		
+		#makeMeScrollable div.scrollableArea img
+		{
+			position: relative;
+			float: left;
+			margin: 0;
+			padding: 0;
+		}
+		
+		
+		
+		
+/* SCROLL BAR EDIT */
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(40,40,40,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+
+
+/* DRAGGABLE */
+
+.draggable {
+	cursor: url(https://mail.google.com/mail/images/2/openhand.cur), default !important;
+}
+
+/* ---------------------------------- */
+
+
+
+
+
+
+/* SmoothDivScroll */
+
+
+body{
+	margin:0;
+	background-color:#000;
+	
+	overflow-y:hidden;
+	
+	}
+
+
+
+/* Invisible left hotspot */
+div.scrollingHotSpotLeft
+{
+	/* The hotspots have a minimum width of 100 pixels and if there is room the will grow
+    and occupy 15% of the scrollable area (30% combined). Adjust it to your own taste. */
+	min-width: 75px;
+	width: 10%;
+	height: 100%;
+	/* There is a big background image and it's used to solve some problems I experienced
+    in Internet Explorer 6. */
+	background-repeat: repeat;
+	background-position: center center;
+	position: absolute;
+	z-index: 200;
+	left: 0;
+	/*  The first url is for Firefox and other browsers, the second is for Internet Explorer */
+	cursor: url(img/cursor_arrow_left.png), url(img/cursor_arrow_left.cur),w-resize;
+}
+
+/* Visible left hotspot */
+div.scrollingHotSpotLeftVisible
+{
+	background-image: url(img/DT-sidebar-btn-prev.png);				
+	background-repeat: no-repeat;
+	/*deleted color opacity */
+}
+
+/* Invisible right hotspot */
+div.scrollingHotSpotRight
+{
+	min-width: 75px;
+	width: 10%;
+	height: 100%;
+	background-repeat: repeat;
+	background-position: center center;
+	position: absolute;
+	z-index: 200;
+	right: 0;
+	cursor: url(img/cursor_arrow_right.png), url(img/cursor_arrow_right.cur),e-resize;
+	
+	
+}
+
+/* Visible right hotspot */
+div.scrollingHotSpotRightVisible
+{
+	background-image: url(img/DT-sidebar-btn-next.png);
+/*	background-color: #fff;
+*/	background-repeat: no-repeat;
+	/*opacity: 0.35;
+	filter: alpha(opacity = 35);
+	-moz-opacity: 0.35;
+	zoom: 1;*/
+}
+
+/* The scroll wrapper is always the same width and height as the containing element (div).
+   Overflow is hidden because you don't want to show all of the scrollable area.
+*/
+
+div.scrollingHotSpotRightVisible a:hover{
+	opacity.1;}
+
+
+div.scrollWrapper
+{
+	position: relative;
+	
+	
+	overflow-y:hidden !important;
+	width: 100%;
+	height: 100%;
+}
+
+div.scrollableArea
+{
+	position: relative;
+
+	width: auto;
+	height: 100%;
+	
+
+}
+
+
+.right-arrow img{
+	width:50px;
+	height:50px;
+	display:block;
+	
+	position:fixed:
+	right:0;
+	top:500px;
+	z-index:99999 important!;
+	
+	}

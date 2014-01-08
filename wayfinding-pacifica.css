@@ -1,0 +1,459 @@
+/* ---------------------------------- */
+
+body {
+	background-image:url(img/bg-tan-ricepaper-2.png)!important;
+	background-color:#f0ebe2;
+}
+
+
+/* ---------------------------------- */
+
+
+
+/* PAGE 0 */
+
+#p0-img1 {
+	/*
+	width: 74% !important;
+	height: 100%;
+	
+	margin-left: 13%;
+	margin-top: 8%;
+	*/
+
+
+	/*position: absolute;
+	right: 15% !important;
+	top: 9%;*/
+	}
+
+
+
+	/* CREDITS OPENER PAGE */
+	
+	.credits ul{
+		display: block;
+		width: auto;
+		height: auto;
+		
+		position: absolute;
+		top: 39%;
+		right: 3%;
+		
+		z-index: 9999 !important;
+		
+		background-image:url(img/bg-tan-ricepaper-2.png);
+		background-color: #f0ebe2;
+		
+		padding: 6px!important;
+		-moz-border-radius: 5px / 5px;
+		border-radius: 5px / 5px;
+		}
+		
+	.show-arrow{
+		display:none!important;
+		
+		position:absolute;
+		top:-5%!important;
+		right: -17% !important;
+		opacity:.5;
+		}
+		
+	.credits:hover #next {
+		display:block !important;
+		}
+		
+		
+	.double-line{
+		letter-spacing:-1px;
+		font-size:17px;
+		padding:0 5px;
+		}
+		
+		
+	
+	/* SIDEBAR PLAYLIST */
+	
+	.sidebar_playlist {
+		position: absolute;
+		bottom:7%;
+		right:7%;
+		opacity:.7;
+		
+		z-index:9999!important;
+	}
+	
+	
+	a.playlist_icon {
+		display:block;
+		height:30px;
+		width:30px;
+		
+		background-image:url(img/btn_playlist.png);
+		background-position: 0px 0px;
+	
+		text-decoration:none;	
+		outline:none;
+	}
+	
+	
+	a.playlist_icon:hover{
+		background-position: 0px -29px;
+		}
+	
+	/* ----------------------- */
+	
+
+/* ---------------------------------- */
+
+
+
+/* PAGE 1 */
+
+#p1-img1 {
+	width: 95% !important;
+	height: auto;
+	
+	margin-left: 0%;
+	margin-top: 2.5%;
+	}
+
+
+/* ---------------------------------- */
+
+
+
+/* PAGE 2 */
+
+#p2-img1 {
+	width: 50% !important;
+	height: auto;
+	
+	position: absolute;
+	top: 7%;
+	left:5%;
+}
+
+#p2-img2 {
+	width: 88% !important;
+	height: auto;
+	
+	margin-top: 2.5%;
+	margin-right:-109%;
+	
+	z-index:9;
+}
+
+/*
+#p2-img1 {
+	width: 70% !important;
+	height: auto;
+	
+	margin-top: 2.5%;
+	margin-left:-40%;
+}
+
+#p2-img2 {
+	width: 89% !important;
+	height: auto;
+	
+	margin-top: 2.5%;
+	margin-right:-97%;
+}
+
+	*/
+/* ---------------------------------- */
+
+
+
+
+/* PAGE 3*/
+
+#p3-img1 {
+	width: 88% !important;
+	height: auto;
+	
+	margin-top: 2.5%;
+	margin-left: -97%;
+	
+	z-index:9;
+}
+
+#p3-img2 {
+	width: 45% !important;
+	height: auto;
+	
+	position: absolute;
+	top: 11%;
+	right:5%;
+}
+
+
+/* ---------------------------------- */
+
+
+
+/* PAGE 4*/
+
+#p4-img1 {
+	width: 90% !important;
+	height: auto;
+	
+	margin-left: 0%;
+	margin-top: 6%;
+}
+
+
+
+/* SIDEBAR-DAYPACK */
+	
+	.sidebar-daypack {
+		position:absolute;
+		bottom:5%;
+		left:-.5%;
+		
+		z-index:9999!important;
+	
+	}
+	
+	
+	a.sidebar-button-daypack {
+	
+		margin-top:30px;
+		
+		display:block;
+		height:33px;
+		width:30px;
+		
+		z-index:9999!important;
+	
+		background-image:url(img/btn_daypack.png);
+		background-position: 0px 0px;
+	
+		
+	}
+	
+	
+	
+	a.sidebar-button-daypack:hover{
+		opacity:.5;
+		
+		}
+	
+	a.sidebar-button-x-daypack{
+		background-position: 0px 30px;
+		}
+	
+	
+	.sidebar-content-daypack {
+		position:absolute;
+		top:-1705% !important;
+		left:80%;
+		
+		display:block;
+		width:960px !important;
+		
+		z-index:9999!important;
+		
+		height:0px;
+		overflow:hidden;
+		
+	}
+	
+	.sidebar-content-daypack img{
+		/*border: 13px solid #EBEEE2!important;*/
+	}
+	
+	/* ----------------- */
+	
+/* ---------------------------------- */
+
+
+
+/* PAGE 5*/
+
+
+#p5-img1 {
+	margin-left:-900px!important;
+	margin-top: 5%;
+	
+}
+
+#p5-img1 img{
+	width: auto!important;
+	height: 68%;
+	
+	margin-left:-900px!important;
+	margin-top: 5%;
+
+	position:absolute;
+	right: -39px;
+	top: 12%;
+	
+}
+
+
+	
+	
+#p5-img2 {
+	width: auto !important;
+	height: 84%;
+	
+	position:absolute;
+	right: -39%;
+	top: 12%;
+	
+}
+
+/*
+
+#p5-img1 {
+	width: auto!important;
+	height: 68%;
+	
+	margin-left:-93%;
+	margin-top: 5%;
+
+}
+	
+	
+#p5-img2 {
+	width: auto !important;
+	height: 84%;
+	
+	position:absolute;
+	right: -39%;
+	top: 12%;
+	
+}
+
+
+
+#p5-img1 {
+	width: auto!important;
+	height: 68%;
+	
+	margin-left:-115%;
+	margin-top: 5%;
+	
+		-webkit-transform: skew(-20deg) ;
+
+	}
+	
+	
+#p5-img2 {
+	width: auto !important;
+	height: 84%;
+	
+	position:absolute;
+	right: -56%;
+	top: 12%;
+	
+	-webkit-transform: skew(-20deg) rotate(0deg);
+}
+*/
+
+
+	/* EXPAND PANO BUTTON */
+		
+	#expand-pano-btn{
+		position:absolute!important;
+		top:50%;
+		left:40%;
+		
+		display:block;
+		min-width:200px;
+		min-height:85px;
+		
+		z-index:999;
+	}
+
+
+	#expand-pano-btn a:hover{
+		opacity:.5!important;
+		cursor: url(img/fullscreen_cursor.png),pointer;
+	}
+	
+	
+	.slant-box{
+		position:absolute!important;
+		top:7%;
+		left:37%;
+		z-index:99!important;
+		
+		display:block;
+		width:30%;
+		height:96%;
+		background-image:url(img/bg-tan-ricepaper-2.png)!important;
+		
+		 transform: skew(-20deg); 
+		 -o-transform: skew(-20deg); 
+		 -moz-transform: skew(-20deg); 
+		 -webkit-transform: skew(-20deg);
+		 -webkit-backface-visibility: hidden;/*smooths out edge*/
+
+		}
+	
+	/* ------------------- */
+
+/* ---------------------------------- */
+
+
+
+/* PAGE 6 */
+
+/*#p6-img1 img{
+	width: auto!important;
+	height: 88% !important;
+}
+*/
+#p6-img1 {
+	width: auto!important;
+	height: 68% !important;
+	
+	margin-left:0%;
+	margin-top: 5%;
+
+	}
+
+
+/* ---------------------------------- */
+
+
+
+
+/* PAGE 7*/
+
+#p7-img1 {
+	width: 65.5% !important;
+	height: auto;
+	margin-left: 0;
+	margin-top: 2%;
+	}
+
+
+#p7-img2 {
+	width: 30.5% !important;
+	height: auto;
+	margin-left: 1.5%;
+	margin-top: 2%;
+	}
+
+
+/* ---------------------------------- */
+
+
+
+
+/* PAGE 8 */
+
+#p8-img1 {
+	width: 95% !important;
+	height: auto;
+	
+	margin-left: 0%;
+	margin-top: 2.5%;
+	}
+
+
+/* ---------------------------------- */

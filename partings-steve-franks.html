@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>PARTINGS || STEVE FRANKS</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+    	<!-- NEEDED FIX: when i put daytripper-global-n01.css in the css folder the arrows dissapear, maybe a problem with reveal.css overriding it?? -->
+    <link href="daytripper-global-no01.css" rel="stylesheet" type="text/css" />
+		<!-- NEEDED FIX: when i put these specific css files in the css folder the backgrounds images don't work -->
+    <link href="partings-steve-franks.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="css/reveal.css">  <!-- REVEAL framework styling -->
+
+
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+    
+
+        
+        
+</head>
+
+<body>
+
+	<!-- LOADER --> 
+    <div class="loader">    
+        <div class="circle blink">
+        <div class="circle2">
+              
+            <div class="loading-icon blink" > 
+                 <img src="img/loader-ajaxload-4.gif" />
+            </div>
+                
+        </div>
+        </div>
+    </div> <!-- / LOADER --> 
+    
+    
+    <!-- NAV -->
+	<nav>  
+        <div class="articles">
+           
+            <a herf="#" id="stories_btn">STORIES</a>
+            
+            <ul>
+                <li>
+                    <a href="trackings-davis-alicia-greenleaf.html">
+                        <li class="story">TRACKINGS</li>
+                    </a>
+                </li>
+               		<li class="separator">|</li> 
+                <li>
+                    <a href="passages-sonora-riesnerxlondon.html">
+                        <li class="story">PASSAGES</li>
+                    </a>
+                </li>
+					<li class="separator">|</li> 
+                <li>
+                    <a href="wayfinding-pacifica-riesner.html">
+                        <li class="story">WAYFINDING</li>
+                    </a>
+                </li>
+                	<li class="separator">|</li> 
+                <li>
+                    <a class="current" href="partings-steve-franks.html">
+                        <li class="story end ">PARTINGS</li>
+                    </a>
+                </li>
+            </ul>
+		</div>
+         
+        <div class="home">     
+            <li>
+                <a class="home" href="index.html">
+                    <li >DAYTRIPPER <class="story"> </li>
+                </a>
+            </li>   
+         </div> <!-- /HOME -->
+         
+    	<hr class="double-line" />
+        
+	</nav> <!-- /NAV -->
+
+
+      
+    <!-- ARROWS --> 
+    	<!-- NEED TO FIX: should be able to do this without using div id prev/next? '.navigate-left .enabled' is the frameworks arrows -->
+    <div class="direction">
+        	<a href="wayfinding-pacifica-riesner.html" id="prev-article"></a>
+        <a href="#" id="prev" class="navigate-left enabled"></a>
+        	<a href="index.html" id="next-article"> </a>
+        <a href="#" id="next" class="navigate-right enabled"></a>
+  
+    </div> <!-- /DIRECTION -->
+
+
+    <div class="reveal">
+        <div class="slides">
+            
+            
+            <!-- PAGE 0 OPENER-->
+            <section data-state="data-event-prev-article">                              
+                    <a class="navigate-right enabled" href="#">
+                    	<img id="p0-img1" src="img/daytripper-partings-steve-franks-p0-steve-franks-squire.png" />
+                	</a>
+                    
+                        <div class="credits">
+                            <ul>
+                                <li class="story"><a class="navigate-right enabled" href="http://www.chrisriesner.tumblr.com">MUSIC <span class="double-line" style="letter-spacing:-2px;">||</span>&ensp;STEVE FRANKS </a></li>
+                                <li class="story-name"><a class="navigate-right enabled" href="trackings-alicia_greenleaf.html">&emsp;FILM <span class="double-line">||</span>&ensp;SQUIRE FILMS</a> </li>
+                           			<a href="#" id="next" class="navigate-right enabled show-arrow"></a>
+                            </ul>
+                        </div> <!-- /CREDITS -->
+    
+             </section> <!--/PAGE 0 --> 
+
+
+
+            <!-- PAGE 1 -->
+            <section data-background="img/dt-no01-partings-tree-bg.jpg" data-background-transition="fade" data-state="data-event-next-article-remove data-event-prev-article-remove">
+                    
+                    <object id="p1-img1">
+               			<iframe src="http://player.vimeo.com/video/38345025?title=0&amp;byline=0&amp;portrait=0&amp;color=0a0a0a" width="658" height="371" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+					</object>
+    
+            		<!--<img id="p1-img2" src="img/dt-no01-partings-tree-bg.jpg" width="1024" height="660">--> 
+            </section> 
+            <!--/PAGE 1 --> 
+
+
+        
+                <!-- PAGE TOC -->
+                	<!-- NEEDED FIX: why the heck can't you click on the links on mobile devices? -->
+                    <!-- NEEDED FIX: .story text resizes with page? -->
+                    <!-- NEEDED FIX: when hover on .story or .story-name hover make them hover as a pair, hover on .next-story not working -->
+      		<section data-state="data-event-next-article">
+                    <div class="toc-end-box toc-end-box-passages">
+                    
+                        <div class="next-story current">
+                            <a class="current" href="index.html">THE END <span class="arrow"> &raquo;</span></a>
+                        </div>
+                        
+                            <div class="toc-list toc-list-home">
+                                <ul>
+                                    <a href="trackings-davis-alicia-greenleaf.html">
+                                    <li class="story">TRACKINGS</li>
+                                    <li class="story-name">ALICIA GREENLEAF</li>
+                                    </a>
+                                </ul>
+                                
+                                <ul>
+                                    <a href="passages-sonora-riesnerxlondon.html">
+                                    <li class="story">PASSAGES</li>
+                                    <li class="story-name">RIESNER &times; LONDON</li>
+                                    </a>
+                                </ul>
+                                
+                                <ul>
+                                    <a href="wayfinding-pacifica-riesner.html">
+                                    <li class="story">WAYFINDING</li>
+                                    <li class="story-name">PACIFICA RIDGE</li>
+                                    </a>
+                                </ul>
+                                
+                                <ul>
+                                    <a href="partings-steve-franks.html">
+                                    <li class="story">PARTINGS</li>
+                                    <li class="story-name">STEVE FRANKS</li>
+                                    </a>
+                                </ul>
+                                
+                        		<ul>
+                                    <a class="current" href="index.html">
+                                    <li class="story">HEAD HOME</li>
+                                    <li class="story-name">DAYTRIPPER</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        
+                            <!--<div class="clear">CLEAR THIS </div>-->
+                            
+                    </div> <!-- /TOC END BOX-->
+        	</section><!-- /PAGE TOC -->
+        
+		</div><!-- /SLIDES -->    
+	</div><!-- /REVEAL -->
+        
+        
+        
+        
+        
+
+	<script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+				
+				mouseWheel: true,
+				transition: 'slide',
+				transitionSpeed: 'slow',
+				
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				
+				
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+
+			
+		</script>
+
+
+        <!--JS JQUERY MIN-->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+		<!--JS DAYTRIPPER-->
+		<script type="text/javascript" src="js/daytripper-global.js"></script>
+        
+        <!--NAV TOP RESPONSIVE BTN-->
+        <script type="text/javascript">
+           /*     $('#stories_btn').click(function(){
+                    $('nav ul').slideToggle('slow', function(){
+                        $(this).css('display') == 'none' ? $(this).removeClass('showNav').addClass('hideNav').removeAttr('style') : $(this).removeClass('hideNav').addClass('showNav').removeAttr('style');
+                    });
+                })
+        */
+        </script> <!--/NAV TOP RESPONSIVE BTN-->
+		
+		<script type="text/javascript">
+        
+        /* SIDEBAR-POP-UP PLAYLIST */
+        /*
+            function popitup(url) {
+        newwindow=window.open(url,'name','height=233,width=290');
+        if (window.focus) {newwindow.focus()}
+        return false;
+        }//sidebar
+        */
+        
+        /* ---------------------------------- */
+        
+        
+        
+        /* SIDEBAR-MAP */
+        /*
+        $(document).ready(function(){
+            
+            $('.sidebar-button-map').toggle(
+            function(){
+                
+                $('.sidebar-content-map').animate({'height':'1000'},1000);	
+            },
+            
+            function(){
+                $('.sidebar-content-map').animate({'height':'0'},500);
+            })
+            
+        
+            $(".sidebar-button-map").click(function () {
+                $(this).toggleClass("sidebar-button-x-map");
+            
+            }); 
+            
+        })//sidebar
+        */
+        
+        /* ---------------------------------- */
+
+              
+        </script>
+
+
+        
+      
+        <!--GOOGLE ANALYTICS -->
+        <script>
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			
+			  ga('create', 'UA-46333945-1', 'daytriper.us');
+			  ga('send', 'pageview');
+
+		</script>
+  
+
+	</body>
+</html>

@@ -1,0 +1,449 @@
+/*********************************************
+PASSAGES- SONORA CSS
+**********************************************/
+
+
+body {
+	background-image:url(img/bg-tan-paper.png);
+	background-color:#faf3e3;
+}
+
+
+/* ---------------------------------- */
+
+
+#blue{
+	position:absolute;
+	top:100px;
+    left:100px;
+	width:100px;
+    height:100px;
+	background-color:blue;
+	cursor:pointer;
+	right:
+}
+
+#red{
+	position:absolute;
+	top:0px;
+    left:0px;
+	width:100px;
+    height:100px;
+	background-color:red;
+	cursor:pointer;
+	right:
+}
+
+/*
+SIDE COLUMN TEXT 
+VERTICAL SCROLL
+*/
+
+/* FIX NEEDED: how to get #side-column-textbox to slide onto 3rd page (and off the last two pages) instead of top:160% hack! */
+
+#side-column-textbox{
+	background-image:url(img/bg-tan-paper.png) !important;
+	background-color:#faf3e3;
+	opacity:.9;
+	z-index:999;
+
+	height:4000px!important;
+	width:43%!important;
+	max-width: 390px;
+	min-width: 295px;
+	
+	position:fixed;
+	top:147%;
+	/*top:147%;*/
+	left:0;
+	
+	margin-top:40px;
+	
+	display:none;
+	
+}
+
+
+.slides-textbox { 
+	z-index:555;
+	height:100%!important;
+
+	margin-left: 37px !important;
+	margin-right: 9px !important;
+	
+	display:none;
+} 
+
+ 
+.slides-textbox img {  
+    padding: 0; 
+ 
+
+} 
+
+.textbox-title {
+	margin-top:80px;
+	margin-bottom:20px;
+
+}
+
+.blank{
+
+}
+
+
+.spacer-bottom, .spacer-top{
+	background-image:url(img/bg-tan-paper.png);
+	opacity: .9;
+	
+	position:fixed;
+	bottom: 0;
+	left:0;
+	
+	width: 43%;
+	max-width: 390px;
+	min-width: 295px;	
+    height: 7%!important;
+	
+	margin-right: 9px !important;
+	margin-bottom: 3px;
+	
+	text-align:center;
+	
+	display:none;
+
+}
+
+a.spacer-bottom:hover, a.spacer-top:hover{
+	opacity:.5;
+	
+}
+
+.spacer-top{
+	position:fixed;
+	top: 38px;
+	left:0;
+	
+	height:7%;
+}
+
+.spacer-blank{
+	display:block;
+	width: auto;
+	height:1200px;
+    background: gray;
+	opacity: 0;	
+	
+}
+
+
+/* ---------------------------------- */
+
+
+
+/* PULL QUOTE */
+	
+.pullquote {
+	z-index: 9999 !important;
+	
+	font-size:48px!important;
+	font-style:italic;
+	font-weight:bold;
+	line-height:0px!important;
+	text-align:right;
+	color: #444;
+	text-shadow: 0px 0px 1.5px #000;
+}
+
+
+/* ---------------------------------- */
+
+
+
+/* HR RULE */
+
+hr.text-closing-rule {
+    width:55%;
+	border: 0;
+    height: 0;
+    border-top: 1px solid #999;
+	text-align:center;
+	margin:0 auto;
+}
+
+
+/*hr.text-closing-rule {
+	width:30%
+	
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.text-closing-rule:after {
+    content: "§";
+    display: inline-block;
+    position: relative; 
+    top: -0.7em;  
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: ccc;
+	background-image:url(img/ricepaper_v3.png) ;
+}*/
+
+
+/* ---------------------------------- */
+
+
+
+/* PAGE 0 */
+
+#p0-img1 {
+	/*
+	width: 74% !important;
+	height: 100%;
+	
+	margin-left: 13%;
+	margin-top: 8%;
+	*/
+
+
+	/*position: absolute;
+	right: 15% !important;
+	top: 9%;*/
+	}
+
+
+
+	/* CREDITS OPENER PAGE */
+	
+	.credits ul{
+		display: block;
+		width: auto;
+		height: auto;
+		
+		position: absolute;
+		top: 39%;
+		right: 7%;
+		
+		z-index: 9999 !important;
+		
+		background-image:url(img/bg-tan-paper.png);
+		background-color: #faf3e3;
+		
+		padding: 6px!important;
+		-moz-border-radius: 5px / 5px;
+		border-radius: 5px / 5px;
+		}
+		
+		
+	.double-line{
+		letter-spacing:-1px;
+		font-size:17px;
+		padding:0 5px;
+		}
+		
+		
+		.show-arrow{
+		display:none!important;
+		
+		position:absolute;
+		top:-5%!important;
+		right: -17% !important;
+		opacity:.5;
+		}
+		
+	.credits:hover #next {
+		display:block !important;
+		}
+		
+	
+	/* SIDEBAR PLAYLIST */
+	
+	.sidebar_playlist {
+		position: absolute;
+		bottom:7%;
+		right:7%;
+		opacity:.7;
+		
+		z-index:9999!important;
+	}
+	
+	
+	a.playlist_icon {
+		display:block;
+		height:30px;
+		width:30px;
+		
+		background-image:url(img/btn_playlist.png);
+		background-position: 0px 0px;
+	
+		text-decoration:none;	
+		outline:none;
+	}
+	
+	
+	a.playlist_icon:hover{
+		background-position: 0px -29px;
+		}
+	
+
+	/* ----------------- */
+
+
+/* ---------------------------------- */
+
+
+
+/* PAGE 1 */
+
+#p1-img1 {
+	width: 98% !important;
+	height: auto;
+	
+	margin-top: 29px;
+	}
+
+#p1-img2 {
+	width: 89% !important;
+	height: auto;
+	
+	margin-top: 7px;
+	}
+
+
+
+/* PAGE 2 */
+
+#p2-img1 {
+	width: 95% !important;
+	height: auto;
+	
+	margin-left: 0%;
+	margin-top: 2.5%;
+}
+	
+
+/* ---------------------------------- */
+
+
+
+/* PAGE 3*/
+
+#p3-img1 {
+	width: 95% !important;
+	height: auto;
+	
+	margin-top: 30px;
+	margin-left: 18%;
+	}
+
+
+	/* PULL QUOTE */
+	
+	#p3-pullquote {
+		display: block;
+		position: absolute;
+		width: 36%;
+		height: auto;
+		
+		top: 1%;
+		right: 0%;
+
+	}
+		
+	
+/* ---------------------------------- */
+
+
+
+/* PAGE 4*/
+
+/* ---------------------------------- */
+
+
+
+/* PAGE 5*/
+
+#p5-img1 {
+	width: 75% !important;
+	height: auto;
+	
+	margin-top: -100px;
+	margin-left: 30%;
+	}
+
+
+	/* PULL QUOTE */
+	
+	#p5-pullquote {
+		display:block;
+		width: 56%;
+		height: auto;
+		
+		position: absolute;
+		bottom: -27%;
+		right: 1%;
+	}
+		
+	
+
+	/* PULL QUOTE */
+	/*
+	.pullquote {
+		display: block;
+		width: 35%;
+		height: auto;
+		
+		position: absolute;
+		top: 0%;
+		right: 0%;
+		
+		z-index: 9999 !important;
+		
+		font-size:48px!important;
+		font-style:italic;
+		line-height:1px!important;
+		text-align:right;
+		}*/
+		
+		
+/* ---------------------------------- */
+
+
+
+/* PAGE 6 */
+
+#p6-img1 {
+	width: 65% !important;
+	height: auto;
+	
+	margin-left: 40%;
+	margin-top: 2.5%;
+}
+	
+
+/* ---------------------------------- */
+
+
+
+/* PAGE 7*/
+	
+/* ---------------------------------- */
+
+
+
+/* PAGE 8 */
+
+#p8-img1 {
+	width: 100% !important;
+	height: auto;
+	
+	margin-left: 0%;
+	margin-top: 2.5%;
+}
+	
+
+/* ---------------------------------- */
+

@@ -1,0 +1,124 @@
+/* ---------------------------------- */
+
+body {
+	background-image:url(img/bg-white-paper.png)!important;
+	background-color:#f2f4f4;
+}
+
+
+/* ---------------------------------- */
+
+
+
+/* PAGE 0 */
+
+#p0-img1 {
+	/*
+	width: 74% !important;
+	height: 100%;
+	
+	margin-left: 13%;
+	margin-top: 8%;
+	*/
+
+
+	/*position: absolute;
+	right: 15% !important;
+	top: 9%;*/
+	}
+
+
+
+	/* CREDITS OPENER PAGE */
+	
+	.credits ul{
+		display: block;
+		width: auto;
+		height: auto;
+		
+		position: absolute;
+		top: 39%;
+		right: 8%;
+		
+		z-index: 9999 !important;
+		
+		background-image:url(img/bg-white-paper.png);
+		background-color: #f2f4f4;
+		
+		padding: 6px!important;
+		-moz-border-radius: 5px / 5px;
+		border-radius: 5px / 5px;
+		}
+
+	.show-arrow{
+		display:none!important;
+		
+		position:absolute;
+		top:-5%!important;
+		right: -17% !important;
+		opacity:.5;
+		}
+		
+	.credits:hover #next {
+		display:block !important;
+		}
+		
+		
+		
+	.double-line{
+		letter-spacing:-1px;
+		font-size:17px;
+		padding:0 5px;
+		}
+		
+		
+	
+	/* SIDEBAR PLAYLIST */
+	
+	.sidebar_playlist {
+		position: absolute;
+		bottom:7%;
+		right:7%;
+		opacity:.7;
+		
+		z-index:9999!important;
+	}
+	
+	
+	a.playlist_icon {
+		display:block;
+		height:30px;
+		width:30px;
+		
+		background-image:url(img/btn_playlist.png);
+		background-position: 0px 0px;
+	
+		text-decoration:none;	
+		outline:none;
+	}
+	
+	
+	a.playlist_icon:hover{
+		background-position: 0px -29px;
+		}
+	
+	/* ----------------------- */
+	
+
+/* ---------------------------------- */
+
+
+
+/* PAGE 1 */
+
+#p1-img1 {
+	width: 95% !important;
+	height: auto;
+	
+	margin-left: 0%;
+	margin-top: 2.5%;
+	}
+
+
+/* ---------------------------------- */
+

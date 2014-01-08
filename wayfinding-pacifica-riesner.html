@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>WAYFINDING || PACIFICA RIDGE</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+    	<!-- NEEDED FIX: when i put daytripper-global-n01.css in the css folder the arrows dissapear, maybe a problem with reveal.css overriding it?? -->
+    <link href="daytripper-global-no01.css" rel="stylesheet" type="text/css" />
+		<!-- NEEDED FIX: when i put these specific css files in the css folder the backgrounds images don't work -->
+    <link href="wayfinding-pacifica.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="css/reveal.css">  <!-- REVEAL framework styling -->
+
+
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+    
+
+        
+        
+</head>
+
+<body>
+
+	<!-- LOADER --> 
+    <div class="loader">    
+        <div class="circle blink">
+        <div class="circle2">
+              
+            <div class="loading-icon blink" > 
+                 <img src="img/loader-ajaxload-4.gif" />
+            </div>
+                
+        </div>
+        </div>
+    </div> <!-- / LOADER --> 
+    
+    
+    <!-- NAV -->
+	<nav>  
+        <div class="articles">
+           
+            <a herf="#" id="stories_btn">STORIES</a>
+            
+            <ul>
+                <li>
+                    <a href="trackings-davis-alicia-greenleaf.html">
+                        <li class="story">TRACKINGS</li>
+                    </a>
+                </li>
+               		<li class="separator">|</li> 
+                <li>
+                    <a href="passages-sonora-riesnerxlondon.html">
+                        <li class="story">PASSAGES</li>
+                    </a>
+                </li>
+					<li class="separator">|</li> 
+                <li>
+                    <a class="current" href="wayfinding-pacifica-riesner.html">
+                        <li class="story">WAYFINDING</li>
+                    </a>
+                </li>
+                	<li class="separator">|</li> 
+                <li>
+                    <a href="partings-steve-franks.html">
+                        <li class="story end">PARTINGS</li>
+                    </a>
+                </li>
+            </ul>
+		</div>
+         
+        <div class="home">     
+            <li>
+                <a class="home" href="index.html">
+                    <li >DAYTRIPPER <class="story"> </li>
+                </a>
+            </li>   
+         </div> <!-- /HOME -->
+         
+    	<hr class="double-line" />
+        
+	</nav> <!-- /NAV -->
+
+
+      
+    <!-- ARROWS --> 
+    	<!-- NEED TO FIX: should be able to do this without using div id prev/next? '.navigate-left .enabled' is the frameworks arrows -->
+    <div class="direction">
+        	<a href="passages-sonora-riesnerxlondon.html" id="prev-article"></a>
+        <a href="#" id="prev" class="navigate-left enabled"></a>
+        	<a href="partings-steve-franks.html" id="next-article"> </a>
+        <a href="#" id="next" class="navigate-right enabled"></a>
+        
+    </div> <!-- /DIRECTION -->
+
+
+    <div class="reveal">
+        <div class="slides">
+            
+            
+            <!-- PAGE 0 OPENER-->
+            <section data-state="data-event-prev-article">                              
+                    <a class="navigate-right enabled" href="#">
+                    	<img id="p0-img1" src="img/daytripper-wayfinding-pacifica-p0-chris-riesner1.png" />
+                	</a>
+                        <div class="credits">
+                            <ul>
+                                <li class="story"><a class="navigate-right enabled" href="#">&nbsp;PHOTOS <span class="double-line" style="letter-spacing:-2px;">||</span>&ensp;CHRIS RIESNER </a></li>
+                                <li class="story-name"><a class="navigate-right enabled" href="#">LOCATION <span class="double-line">||</span>&ensp;PACIFICA RIDGE</a> </li>
+                           			<a href="#" id="next" class="navigate-right enabled show-arrow"></a>
+                            </ul>
+                        </div> <!-- /CREDITS -->
+    
+             </section> <!--/PAGE 0 --> 
+
+
+
+            <!-- PAGE 1 -->
+            <section data-state="data-event-prev-article-remove">
+                    <img id="p1-img1" src="img/dt-no01-wayfinding-pacifica-p1-road.jpg" />
+                    
+            </section> <!--/PAGE 1 --> 
+
+
+
+            <!-- PAGE 2 -->
+            <section>
+                    <img id="p2-img1"src="img/dt-no01-wayfinding-pacifica-p3-pacifica-milagra-ridge-bike.jpg" />
+                    <img id="p2-img2" class="draggable-no-hover" src="img/dt-no01-wayfinding-pacifica-p2-journal-directions.png" />
+
+            </section> <!-- /PAGE 2 -->
+      
+      
+                        
+            <!-- PAGE 3-->
+            <section>
+                    <img id="p3-img1" class="draggable-no-hover" src="img/dt-no01-wayfinding-pacifica-p2-journal-directions.png" />
+                    <img id="p3-img2"src="img/dt-no01-wayfinding-pacifica-p3-pacifica-milagra-ridge-stairs.jpg" />
+
+            </section> <!-- /PAGE 3 -->
+              
+      
+                        
+            <!-- PAGE 4-->
+            <section>
+              <img id="p4-img1" src="img/dt-no01-wayfinding-pacifica-p4-pacifica-milagra-ridge-mountains-bird.jpg" />
+                 <div class="sidebar-daypack">
+                    <a class="sidebar-button-daypack" href="#"></a>
+                        <div class="sidebar-content-daypack draggable-no-hover">
+                            <img src="img/dt-no01-wayfinding-pacifica-p4-pacifica-milagra-ridge-mountains-bird-daypack-banjolele.JPG"  alt="alicia trackings daypack">
+                        </div>
+                </div><!--/SIDEBAR DAYPACK--> 
+            </section> <!-- /PAGE 4 -->
+                      
+      
+                        
+            <!-- PAGE 5-->
+            <section data-background-transition="slide">
+                
+                <div id="expand-pano-btn">
+                    <a rel="shadowbox" href="wayfinding-pacifica-riesner-panorama.html" title="wayfinding-pacifica-riesner-panorama" >
+                    <img src="img/wayfinding-expand-pano.png">
+                    </a>
+                </div>
+                
+                <div class="slant-box">
+                </div>
+                
+             <img id="p5-img1" src="img/dt-no01-wayfinding-pacifica-p5-pano-hill-ocean.jpg" />
+             <img id="p5-img2" src="img/dt-no01-wayfinding-pacifica-pano3.jpg" />
+            
+            </section> 
+            <!-- /PAGE 5 -->
+          
+          
+          
+            <!-- PAGE 6 -->
+            <section data-background-transition="slide">
+              
+            	<img id="p6-img1" src="img/dt-no01-wayfinding-pacifica-p6-pacific-ocean.jpg" />
+
+            </section> <!--/PAGE 6 --> 
+      
+      
+                        
+            <!-- PAGE 7-->
+            <section>
+                    <img id="p7-img1"src="img/dt-no01-wayfinding-pacifica-p7-hill-ocean.jpg" />
+                    <img id="p7-img2"src="img/dt-no01-wayfinding-pacifica-p7-pier-ocean.jpg" />
+    
+            </section> <!-- /PAGE 7 -->
+            
+            
+            
+            
+            <!-- PAGE 8 -->
+            <section data-state="data-event-next-article-remove">
+                    <img id="p8-img1" src="img/dt-no01-wayfinding-pacifica-p8-sky-dark.jpg" />
+                    
+            </section> <!--/PAGE 1 --> 
+        
+        
+        
+                <!-- PAGE TOC -->
+                	<!-- NEEDED FIX: why the heck can't you click on the links on mobile devices? -->
+                    <!-- NEEDED FIX: .story text resizes with page? -->
+                    <!-- NEEDED FIX: when hover on .story or .story-name hover make them hover as a pair, hover on .next-story not working -->
+                <section data-state="data-event-next-article">
+                    <div class="toc-end-box toc-end-box-passages">
+                    
+                        <div class="next-story current">
+                            <a class="current" href="passages-riesnerxlondon.html">NEXT STORY <span class="arrow"> &raquo;</span></a>
+                        </div>
+                        
+                            <div class="toc-list toc-list-partings">
+                                <ul>
+                                    <a href="trackings-davis-alicia-greenleaf.html">
+                                    <li class="story">TRACKINGS</li>
+                                    <li class="story-name">ALICIA GREENLEAF</li>
+                                    </a>
+                                </ul>
+                                
+                                <ul>
+                                    <a href="passages-sonora-riesnerxlondon.html">
+                                    <li class="story">PASSAGES</li>
+                                    <li class="story-name">RIESNER &times; LONDON</li>
+                                    </a>
+                                </ul>
+                                
+                                <ul>
+                                    <a href="wayfinding-pacifica-riesner.html">
+                                    <li class="story">WAYFINDING</li>
+                                    <li class="story-name">PACIFICA RIDGE</li>
+                                    </a>
+                                </ul>
+                                
+                                <ul>
+                                    <a class="current" href="partings-steve-franks.html">
+                                    <li class="story">PARTINGS</li>
+                                    <li class="story-name">STEVE FRANKS</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        
+                            <!--<div class="clear">CLEAR THIS </div>-->
+                            
+                    </div> <!-- /TOC END BOX-->
+        		</section> 
+        
+        
+		</div><!-- /SLIDES -->    
+	</div><!-- /REVEAL -->
+        
+        
+        
+        
+        
+
+	<script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+				
+				mouseWheel: true,
+				transition: 'slide',
+				transitionSpeed: 'slow',
+				backgroundTransition: 'slide',
+				
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				
+				
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+
+			
+		</script>
+
+
+        <!--SIDEBAR JS-->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+		<!--JS DAYTRIPPER-->
+		<script type="text/javascript" src="js/daytripper-global.js"></script>
+		
+        
+        
+        
+        
+        <!--NAV TOP RESPONSIVE BTN-->
+        <script type="text/javascript">
+             /*   $('#stories_btn').click(function(){
+                    $('nav ul').slideToggle('slow', function(){
+                        $(this).css('display') == 'none' ? $(this).removeClass('showNav').addClass('hideNav').removeAttr('style') : $(this).removeClass('hideNav').addClass('showNav').removeAttr('style');
+                    });
+                })*/
+        
+        </script> <!--/NAV TOP RESPONSIVE BTN-->
+		
+		<script type="text/javascript">
+        
+        /* SIDEBAR-POP-UP PLAYLIST */
+       /* 
+            function popitup(url) {
+        newwindow=window.open(url,'name','height=233,width=290');
+        if (window.focus) {newwindow.focus()}
+        return false;
+        }//sidebar
+        */
+        
+        /* ---------------------------------- */
+        
+        
+        
+        /* SIDEBAR-MAP */
+        
+        $(document).ready(function(){
+            
+			// MAP
+            $('.sidebar-button-map').toggle(
+            function(){
+                
+                $('.sidebar-content-map').animate({'height':'1000'},1000);	
+            },
+            
+            function(){
+                $('.sidebar-content-map').animate({'height':'0'},500);
+            })
+            
+        
+            $(".sidebar-button-map").click(function () {
+                $(this).toggleClass("sidebar-button-x-map");
+            
+            }); // /map
+			
+			
+			
+			// DAYPACK
+            $('.sidebar-button-daypack').toggle(
+            function(){
+                
+                $('.sidebar-content-daypack').animate({'height':'768'},1000);	
+            },
+            
+            function(){
+                $('.sidebar-content-daypack').animate({'height':'0'},500);
+            })
+            
+        
+            $(".sidebar-button-daypack").click(function () {
+                $(this).toggleClass("sidebar-button-x-daypack");
+            
+            }); // /daypack
+            
+        })//sidebar
+        
+        
+        /* ---------------------------------- */
+
+              
+        </script>
+
+
+        <!--SHADOW BOX EXTERNAL-->
+        <link rel="stylesheet" type="text/css" href="plugin/shadowbox/shadowbox.css">
+        <script type="text/javascript" src="plugin/shadowbox/shadowbox.js"></script>        
+        <script> 
+			/* SHADOW BOX EXTERNAL */
+			
+			Shadowbox.init({
+					overlayColor: "#000",
+					handleOversize: "drag",
+					
+					initialHeight: "10px",
+					modal: "flase",	
+				
+			});
+        
+        </script> <!--/SHADOW BOX EXTERNAL-->
+
+  
+
+		<!--DRAGGABLE SCRIPT this needs to be at the bottom (touch punch fixes js-ui non touch friendly)-->
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+        <script src="js/jquery.ui.touch-punch.min.js"></script>
+        
+			<script type="text/javascript">
+                $(function() {
+                    $( ".draggable, .draggable-no-hover" ).draggable();
+                });
+            </script><!--/DRAGGABLE SCRIPT-->
+
+
+        <!--GOOGLE ANALYTICS -->
+        <script>
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			
+			  ga('create', 'UA-46333945-1', 'daytriper.us');
+			  ga('send', 'pageview');
+
+		</script>
+
+	</body>
+</html>

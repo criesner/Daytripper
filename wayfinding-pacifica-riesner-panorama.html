@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>WAYFINDING || PACIFICA_PANORAMA</title>
+	
+	<link rel="Stylesheet" type="text/css" href="plugin/smoothDivScroll/css/smoothDivScroll.css">
+
+</head>
+
+
+<body>
+
+<!-- 
+    <div class="direction">
+        
+        <id="prev"> &lang; </div>
+        
+        <id="next"> &rang;</div>
+     
+    </div>
+             -->   
+                
+
+	<div id="makeMeScrollable">
+		<div style="display: block;" class="scrollingHotSpotLeft"></div>
+		<div style="display: block;" class="scrollingHotSpotRight"></div>
+		<div class="scrollWrapper">
+			<div style="width: "class="scrollableArea draggable">
+            <img src="img/dt-no01-wayfinding-pacifica-p5-pano/2012-02-05_pacifica_milagra_sunset_PANO_2-crop_01.jpg" />
+            <img src="img/dt-no01-wayfinding-pacifica-p5-pano/2012-02-05_pacifica_milagra_sunset_PANO_2-crop_02.jpg" />
+            <img src="img/dt-no01-wayfinding-pacifica-p5-pano/2012-02-05_pacifica_milagra_sunset_PANO_2-crop_03.jpg" />
+            <img src="img/dt-no01-wayfinding-pacifica-p5-pano/2012-02-05_pacifica_milagra_sunset_PANO_2-crop_04.jpg" />
+            <img src="img/dt-no01-wayfinding-pacifica-p5-pano/2012-02-05_pacifica_milagra_sunset_PANO_2-crop_05.jpg" />
+            <img src="img/dt-no01-wayfinding-pacifica-p5-pano/2012-02-05_pacifica_milagra_sunset_PANO_2-crop_06.jpg" />
+            <img src="img/dt-no01-wayfinding-pacifica-p5-pano/2012-02-05_pacifica_milagra_sunset_PANO_2-crop_07.jpg" />
+            <img src="img/dt-no01-wayfinding-pacifica-p5-pano/2012-02-05_pacifica_milagra_sunset_PANO_2-crop_08.jpg" />
+            <img src="img/dt-no01-wayfinding-pacifica-p5-pano/2012-02-05_pacifica_milagra_sunset_PANO_2-crop_09.jpg" />
+            <img src="img/dt-no01-wayfinding-pacifica-p5-pano/2012-02-05_pacifica_milagra_sunset_PANO_2-crop_10.jpg" />
+            <img src="img/dt-no01-wayfinding-pacifica-p5-pano/2012-02-05_pacifica_milagra_sunset_PANO_2-crop_11.jpg" />
+            <img src="img/dt-no01-wayfinding-pacifica-p5-pano/2012-02-05_pacifica_milagra_sunset_PANO_2-crop_12.jpg" />
+            <img src="img/dt-no01-wayfinding-pacifica-p5-pano/2012-02-05_pacifica_milagra_sunset_PANO_2-crop_13.jpg" />
+            <img src="img/dt-no01-wayfinding-pacifica-p5-pano/2012-02-05_pacifica_milagra_sunset_PANO_2-crop_14.jpg" />
+            <img src="img/dt-no01-wayfinding-pacifica-p5-pano/2012-02-05_pacifica_milagra_sunset_PANO_2-crop_15.jpg" />
+            
+            
+            </div>
+		</div>
+	</div>
+
+	
+	<!-- jQuery library -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<!-- jQuery UI -->
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	
+	<!-- Smooth Div Scroll 1.1 - minified for faster loading-->
+	<script src="plugin/smoothDivScroll/js/SmoothDivScroll.js" type="text/javascript"></script>
+    
+		<script type="text/javascript">
+            // Initialize the plugin with no custom options
+            $(window).load(function() {
+                $("div#makeMeScrollable").smoothDivScroll({});
+            });
+        </script><!--/SMOOTH DIV-->
+
+
+    <!--DRAGGABLE SCRIPT this needs to be at the bottom (touch punch fixes js-ui non touch friendly)-->
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    
+        <script type="text/javascript">
+            $(function() {
+                $( ".draggable" ).draggable({axis: "x"});
+            });
+        </script><!--/DRAGGABLE SCRIPT-->
+
+
+</body>
+</html>
