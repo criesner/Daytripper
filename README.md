@@ -22,6 +22,12 @@ This is a little project I am setting up for Chris to teach him github and to cl
 - http://try.github.io/levels/1/challenges/1 (a little github tutorial)
 - https://www.codeschool.com
 
+### Some reference files I found and deleted
+- https://github.com/eikes/jquery.swipe-events.js
+- http://modernizr.com/
+- http://stackoverflow.com/questions/7018919/how-to-bind-touchstart-and-click-events-but-not-respond-to-both
+- http://stackoverflow.com/questions/15610682/swipe-swipeleft-swiperight-events-do-not-trigger-on-image
+
 ---
 ---
 ---
