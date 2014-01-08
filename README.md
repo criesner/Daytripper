@@ -21,6 +21,8 @@ This is a little project I am setting up for Chris to teach him github and to cl
 - http://ia.net/blog/responsive-typography-the-basics/
 - http://try.github.io/levels/1/challenges/1 (a little github tutorial)
 - https://www.codeschool.com
+- http://maxvoltar.com/archive/-webkit-font-smoothing
+- http://aestheticallyloyal.com/public/optimize-legibility/
 
 ### Some reference files I found and deleted
 - https://github.com/eikes/jquery.swipe-events.js
