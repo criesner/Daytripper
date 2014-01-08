@@ -8,25 +8,20 @@
 
     <meta name="description" content="Daytripper is an interactive webzine that's all about the unique adventures that come from cheap and spontaneous forms of travel.">
     <meta name="author" content="DAYTRIPPER || CHRIS RIESNER">
-
-	<link rel="apple-touch-icon" href="dt-ios-icon.png"/>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <link href="daytripper-global-no01.css" rel="stylesheet" type="text/css" />
-    <link href="daytripper-homepage.css" rel="stylesheet" type="text/css" />
-
-    <link rel="stylesheet" href="css/reveal.css">  <!-- REVEAL framework styling -->
+	<link rel="apple-touch-icon" href="dt-ios-icon.png"/>
+    
+    <link type="text/css" href="daytripper-global-no01.css" rel="stylesheet" />
+    <link type="text/css" href="daytripper-homepage.css" rel="stylesheet" />
+    <link type="text/css" href="css/reveal.css" rel="stylesheet" />  <!-- REVEAL framework styling -->
 
 
     <!--[if lt IE 9]>
     <script src="lib/js/html5shiv.js"></script>
     <![endif]-->
-
- 
-       
 </head>
 
 <body>
@@ -59,69 +54,47 @@
          
     	<hr class="double-line" />
         
-	
-	
         <div class="about-overlay">
             <div class="about">
-            
-                <p>
-                Daytripper is an interactive webzine that's all about the unique adventures that come from cheap and spontaneous forms of travel.
+                <p>Daytripper is an interactive webzine that's all about the unique adventures that come from cheap and spontaneous forms of travel.</p> 
+                <br />
+                <p>If you're intrested in learning more about this project, have intrest in contributing stories or if you just want to say hi, write us a 
+                    <a href="mailto:chris.riesner@gmail.com">NOTE</a>
                 </p>
-                
-                <br>
                 <p>
-               If you're intrested in learning more about this project, have intrest in contributing stories or if you just want to say hi, write us a <a href="mailto:chris.riesner@gmail.com">NOTE</a>
-                </p>
-                
-                <p>
-                <a class="hide-btn spin-hover" href="#"></a>
+                    <a class="hide-btn spin-hover" href="#"></a>
                 </p>
             </div> <!-- /ABOUT -->
         </div> <!-- /ABOUT OVERLAY -->
         
         <div class="subscribe-overlay">
             <div class="about">
-    
                 <p>
         			Follow the <a href="https://www.facebook.com/daytripperZine" target="_new">DAYTRIPPER FACEBOOK</a> to get updates on new issue releases.
-                </p>
-                
-                <br>
-                
+                </p>                
+                <br />
                 <p>
-        			<div class="fb-follow" data-href="http://www.facebook.com/daytripperZine" data-colorscheme="light" data-layout="box_count" data-show-faces="false">
-                    </div>
-              
-              		<!--
-                    <iframe src="//www.facebook.com/plugins/follow.php?href=http%3A%2F%2Fwww.facebook.com%2F545169685570565&amp;width=400px&amp;height=65&amp;colorscheme=light&amp;layout=box_count&amp;show_faces=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:400pxpx; height:65px;" allowTransparency="true"></iframe>
-                	-->
+        			<div class="fb-follow" data-href="http://www.facebook.com/daytripperZine" data-colorscheme="light" data-layout="box_count" data-show-faces="false"></div>
                 </p>
-                
                 <p>
                 	<a class="hide-btn spin-hover" href="#"></a>
                 </p>
    	 		</div> <!-- /ABOUT -->
 		</div>  <!-- /SUBSCRIBE OVERLAY -->  
-
-</nav> <!-- /NAV -->
-
-
-          
+    </nav> 
+    <!-- /NAV -->
           
     <!-- ARROWS --> 
     	<!-- NEED TO FIX: should be able to do this without using div #rev/#next?  .navigate-left .enabled is the frameworks correct name, i added #prev to get working this would fix the swiping triggering JS vertical scroll feature-->
     <div class="direction loading-screen">
         <a href="#" id="prev-home" class="navigate-left enabled"></a>
         <a href="#" id="next" class="navigate-right enabled"></a>
-  
     </div> <!-- /DIRECTION -->
-
 
     <!-- MASTHEAD LOGO -->
     <div id="masthead" class="loading-screen">
 		<img id="p0-img0" src="img/dt-homepage-stack-type.png" >
     </div><!-- /MASTHEAD LOGO -->
-        
         
     <!-- SIDE COLUMN TEXTBOX // VERTICAL SLIDE --> 
     	<!-- FIX NEEDED(SEMI FIXED): how to get this to work on touch device tap and swipe -->
@@ -250,456 +223,17 @@
             
 		</div><!-- /SLIDES -->    
 	</div><!-- /REVEAL -->
-        
-        
-        
+    <div id="fb-root"></div>
     
 	<!--REAVEAL.JS FRAMEWORK OPTIONS-->
     <script src="lib/js/head.min.js"></script>
     <script src="js/reveal.min.js"></script>
-    
-			
-            <!--FIX NEEDED: it seems like this should be put in a .js file and linked instead of pasted on ever page (always the same) however it it doesn't work when it's put in a .js file-->
-		<script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script> <!--JAVASCRIPT-->
+    <script src="js/daytripper-global.js"></script>	<!--JS DAYTRIPPER GLOBAL-->
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script><!--JQUEREY UI-->
+    <script type="text/javascript" src="js/jquery.cycle.all.js"></script><!--TOC SLIDER CYCLE PLUGIN-->
+    <script type="text/javascript" src="http://f.cl.ly/items/1V0H321S2j3r3y1D2m15/jquery.mousewheel.js"></script><!--MOUSEWHEEL JS-->
 
-			// Full list of configuration options available here:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: false,
-				progress: true,
-				history: true,
-				center: true,
-				
-				mouseWheel: false,
-				transition: 'slide',
-				transitionSpeed: 'slow',
-				backgroundTransition: 'slide',
-				
-				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
-
-				
-				
-				// Optional libraries used to extend on reveal.js
-				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-				]
-			});
-			
-		</script><!--/REAVEAL.JS-->
-
-
-        
-	<!--JAVASCRIPT-->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-	<!--JS DAYTRIPPER GLOBAL-->
-    <script src="js/daytripper-global.js"></script>
-    
-    
-    <!--NEXT ARROW CHANGE-->
-    <script type="text/javascript">
-      /* 
-		//HOME PREV ARROW HIDE
-        document.addEventListener('data-event-prev-home-hide', function(){
-            $('#prev-home').fadeOut();
-           // $('#prev').css('opacity', '0.2');
-        });
-		
-        //HOME PREV ARROW SHOW
-        document.addEventListener('data-event-prev-home', function(){
-            $('#prev-home').fadeIn();
-           // $('#prev').css('opacity', '0.2');
-        });
-        
-        
-        //NEXT ARROW HIDE
-        document.addEventListener('data-event-next-home-hide', function(){
-            $('#next').fadeOut();
-        });
-        
-		//NEXT ARROW SHOW
-        document.addEventListener('data-event-next-home', function(){
-            $('#next').fadeIn();
-        });
-	 */
-    </script>
-
-
-
-	
-	<!--RESPONSIVE: NAV TOP BTN-->
-	<script type="text/javascript">
-		/*	
-			$('#stories_btn').click(function(){
-				$('nav ul').slideToggle('slow', function(){
-					$(this).css('display') == 'none' ? $(this).removeClass('showNav').addClass('hideNav').removeAttr('style') : $(this).removeClass('hideNav').addClass('showNav').removeAttr('style');
-				});
-   			})
-	 	/*
-	</script> <!--/RESPONSIVE: NAV TOP BTN-->
-    
-    	
-	<!--RESPONSIVE: TOC BTN-->
-	<script type="text/javascript">
-			$('.toc-btn').click(function(){
-				$('.toc-list ul').slideToggle('slow', function(){
-					$(this).css('display') == 'none' ? $(this).removeClass('showNav').addClass('hideNav').removeAttr('style') : $(this).removeClass('hideNav').addClass('showNav').removeAttr('style');
-				});
-   			})
-	
-	</script> <!--/RESPONSIVE: TOC BTN-->
-
-
-    
-    <!--NAV TOP POPUP-->
-    <script type="text/javascript">
-	
-	/*$(document).click(function(event) { 
-		if($(event.target).parents().index($('.about-btn')) == -1) {
-			if($('.about-overlay').is(":visible")) {
-				$('.about-overlay').hide()
-			}
-		}        
-	})*/
-	
-	
-	/* HOME NAV ABOUT OVERLAY*/
-		// NAV ABOUT BTN 
-		$(".about-btn").click(function(){
-			$(".about-overlay").fadeIn();
-		});
-		
-		// HIDE BTN
-		$(".hide-btn").click(function(){
-			$(".about-overlay").fadeOut();
-	   
-		});
-		
-		// CLOSE BACKGROUND CLICK
-		$('body').click(function() {
-			$('.about-overlay').fadeOut('slow');
-		});
-		
-		// CLOSE BACKGROUND CLICK EXCLUDE THESE
-		$('.about-btn, .about').click(function(event){
-			event.stopPropagation();
-		});
-
-
-
-	/* HOME NAV SUBSCRIBE OVERLAY*/
-		// NAV SUBSCRIBE BTN 
-		$(".subscribe-btn").click(function(){
-			$(".subscribe-overlay").fadeIn();
-		});
-		
-		// NAV HIDE SUBSCRIBE 
-		$(".hide-btn").click(function(){
-			$(".subscribe-overlay").fadeOut();
-	   
-		});
-		
-		// CLOSE BACKGROUND CLICK
-		$('body').click(function() {
-			$('.subscribe-overlay').fadeOut('slow');
-		});
-		
-		// CLOSE BACKGROUND CLICK EXCLUDE THESE
-		$('.subscribe-btn, .about').click(function(event){
-			event.stopPropagation();
-		});
-
-	
-/*
-
-	$('html').click(function() {
-		$(".about-overlay").fadeOut();
-	});
-	
-	$('.about-overlay').click(function(event){
-		event.stopPropagation();
-	});
-	
-	  $('body').click(function() {
-        $('.about-overlay').fadeOut('slow');
-        return false;
-    });
-
-*/
-    
-    </script>
-    
-    
-    
-    
-        <!--JQUEREY UI-->
-    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>	
-    
-<!--TOC SLIDER CYCLE PLUGIN-->
-	<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
-<!--MOUSEWHEEL JS-->
-<script type="text/javascript" src="http://f.cl.ly/items/1V0H321S2j3r3y1D2m15/jquery.mousewheel.js"></script>
-
-	<script type="text/javascript">
-		
-		
-		if (document.getElementById('hello')) {
-		  document.getElementById('hello').innerHTML = 'Hello World - this was inserted using JavaScript';
-		}
-		
-		function wheelMove(event,deltaY) {
-		  event.preventDefault();
-		  $('.slides').unbind('mousewheel', wheelMove);
-		
-		  if (deltaY > 0) {
-			$('.slides').cycle('next');
-		  }
-		  if (deltaY < 0) {
-			$('.toc-home-box').cycle('prev');
-		  }
-		}
-		
-		var oldDate = Date.now();
-		
-		$(document).ready(function(){
-		  $('.toc-home-box')
-		  .cycle({
-			fx:     'scrollUp', 
-						next:   '.navigate-right.enabled', 
-						prev:   '.navigate-left',
-						speed: 	1020,
-						timeout: 0, 
-						pager: 'nav',
-			after: function(){
-			  interval = setTimeout(function(){
-				$('.toc-home-box').bind('mousewheel', wheelMove);
-			  },1600);
-			}
-		  });
-			  
-		  $('.toc-home-box').bind('mousewheel',wheelMove);
-		});
-		
-		
-	/*	// CYCLE MOUSE WORKS ON SMALL TEXTBOX AREA
-		if (document.getElementById('hello')) {
-		  document.getElementById('hello').innerHTML = 'Hello World - this was inserted using JavaScript';
-		}
-		
-		function wheelMove(event,deltaY) {
-		  event.preventDefault();
-		  $('.toc-home-box').unbind('mousewheel', wheelMove);
-		
-		  if (deltaY > 0) {
-			$('.toc-home-box').cycle('next');
-		  }
-		  if (deltaY < 0) {
-			$('.toc-home-box').cycle('prev');
-		  }
-		}
-		
-		var oldDate = Date.now();
-		
-		$(document).ready(function(){
-		  $('.toc-home-box').cycle({
-			fx: 'scrollVert',
-			speed: 800,
-			timeout: 0,
-			after: function(){
-			  interval = setTimeout(function(){
-				$('.toc-home-box').bind('mousewheel', wheelMove);
-			  },1600);
-			}
-		  });
-			  
-		  $('.toc-home-box').bind('mousewheel',wheelMove);
-		});
-		*/
-
-
-		
-	/*	$(document).ready(function(){
-				// TOC SLIDER CYCLE PLUGIN
-				$('.toc-home-box')
-					.cycle({ 
-						fx:     'scrollUp', 
-						next:   '.navigate-right.enabled', 
-						prev:   '.navigate-left',
-						speed: 	1020,
-						timeout: 0, 
-						pager: 'nav',
-						nowrap: 1
-					});
-					
-					
-				//SWIPE NOT SURE IF WORKING
-				$('.toc-home-box').swipeleft(function(e){
-					$('.toc-home-box').cycle('prev'); 
-					e.preventDefault();
-				}); 
-				
-				  $('.toc-home-box').swiperight(function(e){
-					$('.toc-home-box').cycle('next'); 
-					e.preventDefault();
-				  });
-				  
-		}); // CYCLE*/
-				
-				
-			// KEYBOARD TOC 
-			$(document.documentElement).keyup(function (e) {
-				// RIGHT KEY NEXT
-				if (e.keyCode == 39){        
-				   $('.toc-home-box').cycle('next');
-				}
-				
-				//LEFT KEY PREV
-				if (e.keyCode == 37){
-					$('.toc-home-box').cycle('prev');
-				}
-			
-			}); // /KEYBOARD TOC
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	/*			$(document).ready(function(){
-				// TOC SLIDER CYCLE PLUGIN
-				$('.toc-home-box')
-					.cycle({ 
-						fx:     'scrollUp', 
-						next:   '.navigate-right.enabled', 
-						prev:   '.navigate-left',
-						speed: 	1020,
-						timeout: 0, 
-						pager: 'nav',
-						nowrap: 1
-					});
-		});*/
-		
-		
-		/*trying to make touch friendly no luck*/	
-		/*			
-		$(this).bind('touchstart click', function(){
-		  e.preventDefault();
-			
-			$('.toc-home-box')
-				.cycle({ 
-					fx:     'scrollUp', 
-					next:   '.navigate-right.enabled', 
-					prev:   '.navigate-left',
-					speed: 	1020,
-					timeout: 0, 
-					pager: 'nav',
-					nowrap: 1
-				});
-				
-			});*/
-		
-	
-	</script> <!--/CYCLE-->
-    
-    
-
-	<!-- SIDEBAR HOBOCODE SLIDEDOWN -->
-	<script type="text/javascript">
-		/*	$(document).ready(function(){
-				
-				$('.sidebar-button-hobocode').toggle(
-				function(){
-					
-					$('.sidebar-content-hobocode').animate({'width':'500'},500);	
-				},
-				
-				function(){
-					$('.sidebar-content-hobocode').animate({'width':'0'},500);
-				})
-				
-				
-				$('.sidebar-button-hobocode').click(
-					function (){
-					$(this).toggleClass("sidebar-button-x");
-				});
-			
-			})*/
-			
-	</script> <!--/SIDEBAR SLIDEDOWN JS-->
-
-
-
-	<!--TOC HOME TEXTBOX VERTICAL SLIDE-->	
-		<script type="text/javascript">
-        
-        /* SIDE COLUMN TEXT VERTICAL SLIDE */
-/*            $(document).ready(function(){
-                    // RIGHT ARROW 
-                    $("#next").click(function(){
-                        $('#side-column-textbox').animate({top: "-=123"}, 1020);
-                        })	
-                        
-                    // LEFT ARROW 
-                    $("#prev").click(function(){
-                        $('#side-column-textbox').animate({top: "+=123"}, 1020);
-                        })		
-            })
-            
-            
-           $(document).keydown(function(key) {
-                switch(parseInt(key.which,10)) {
-                    case 39: // RIGHT KEY
-                            $('#side-column-textbox').animate({top: "-=123"}, 1020);
-                            break;
-                    
-                    case 37: // LEFT KEY
-                            $('#side-column-textbox').animate({top: "+=123"}, 1020);
-                            break;
-                    default:
-                            break;
-                }
-            });
-            */
-        
-        
-        <!--iOS .click function hack (not working) -->
-		        <!--FIX NEEDED: mobile devises the above JS doesn't respond because of some '.click' bug??-->
-/*
-            $(function() {
-                // The trick
-                if (/ip(hone|od)|ipad/i.test(navigator.userAgent)) {
-                   $("body").css ("cursor", "pointer");
-                }
-                // The test
-                $("body").on("click", "#click", function() {
-                    alert("This also works on iOS !");
-                });
-            });
-        */
-               
-        </script> <!--/TOC HOME TEXTBOX VERTICAL SCROLL-->	
-
-		<!--JS FACEBOOK FOLLOW -->
-        <div id="fb-root"></div>
-        <script>
-			// JS FACEBOOX FOLLOW BTN (NOT WORKING)
-			(function(d, s, id) {
-			  var js, fjs = d.getElementsByTagName(s)[0];
-			  if (d.getElementById(id)) return;
-			  js = d.createElement(s); js.id = id;
-			  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-			  fjs.parentNode.insertBefore(js, fjs);
-			}(document, 'script', 'facebook-jssdk'));
-        </script><!--/JS FACEBOOK FOLLOW-->
-        
         
         <!--GOOGLE ANALYTICS -->
         <script>
@@ -710,9 +244,6 @@
 			
 			  ga('create', 'UA-46333945-1', 'daytriper.us');
 			  ga('send', 'pageview');
-
 		</script>
-
-
 	</body>
 </html>
