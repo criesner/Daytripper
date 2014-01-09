@@ -55,3 +55,5 @@ This is a little project I am setting up for Chris to teach him github and to cl
 3. On the apache tab select & point it to the folder where your project is hosted
 4. save prefs & start server
 5. Go to http://localhost:8888 to see your code
+
+
